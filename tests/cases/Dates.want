@@ -1,0 +1,8 @@
+2010/01/02 Foo Date
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^^^^^^
+          ["source.hledger"]
+
+^
+["source.hledger"]
