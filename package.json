@@ -1,4 +1,8 @@
 {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhansen/hledger-vscode.git"
+  },
   "name": "hledger-vscode",
   "displayName": "hledger-vscode",
   "description": "Language support for HLedger accounting journals.",
