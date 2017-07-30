@@ -52,7 +52,7 @@
 					"patterns": [
 						{
 							"name": "constant.other.tag",
-							"match": "\\w+:\\w*"
+							"match": "\\w+:[^,]*"
 						}
 					]
 				},

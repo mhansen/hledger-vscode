@@ -5,7 +5,7 @@
                               ["comment.line.semicolon"]
                                ^
                                ["comment.line.semicolon"]
-                                ^^^^^^^^
+                                ^^^^^^^^^
                                 ["comment.line.semicolon","constant.other.tag"]
     expenses:food    $10   ; a-posting-tag: the tag value
     ^^^^^^^^^^^^^
@@ -14,10 +14,8 @@
                            ["comment.line.semicolon"]
                             ^^^^^^^^^^^
                             ["comment.line.semicolon"]
-                                       ^^^^
+                                       ^^^^^^^^^^^^^^^^^^^
                                        ["comment.line.semicolon","constant.other.tag"]
-                                           ^^^^^^^^^^^^^^
-                                           ["comment.line.semicolon"]
     assets:checking       ; a comment containing tag1:, tag2: some value ...
     ^^^^^^^^^^^^^^^
     ["constant.other.account"]
@@ -29,10 +27,8 @@
                                                  ["comment.line.semicolon","constant.other.tag"]
                                                       ^^
                                                       ["comment.line.semicolon"]
-                                                        ^^^^^
+                                                        ^^^^^^^^^^^^^^^^^^^^^
                                                         ["comment.line.semicolon","constant.other.tag"]
-                                                             ^^^^^^^^^^^^^^^
-                                                             ["comment.line.semicolon"]
 
 2010/01/01 foo ; tag:a-b-c
 ^^^^^^^^^^
@@ -41,7 +37,5 @@
                ["comment.line.semicolon"]
                 ^
                 ["comment.line.semicolon"]
-                 ^^^^^
+                 ^^^^^^^^^^
                  ["comment.line.semicolon","constant.other.tag"]
-                      ^^^^
-                      ["comment.line.semicolon"]
