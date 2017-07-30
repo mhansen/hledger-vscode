@@ -1,0 +1,15 @@
+2017/1/16 bought groceries    ; sometag:
+^^^^^^^^^
+["constant.numeric.date"]
+                              ^^^^^^^^^^
+                              ["comment.line.semicolon"]
+    expenses:food    $10   ; a-posting-tag: the tag value
+    ^^^^^^^^^^^^^
+    ["constant.other.account"]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           ["comment.line.semicolon"]
+    assets:checking       ; a comment containing tag1:, tag2: some value ...
+    ^^^^^^^^^^^^^^^
+    ["constant.other.account"]
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                          ["comment.line.semicolon"]

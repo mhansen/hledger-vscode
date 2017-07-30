@@ -1,0 +1,3 @@
+2017/1/16 bought groceries    ; sometag:
+    expenses:food    $10   ; a-posting-tag: the tag value
+    assets:checking       ; a comment containing tag1:, tag2: some value ...
