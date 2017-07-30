@@ -6,13 +6,13 @@
 			"include": "#accountnames"
 		},
 		{
-			"include": "#strings"
-		},
-		{
 			"include": "#dates"
 		},
 		{
-			"include":"#currencies"
+			"include": "#currencies"
+		},
+		{
+			"include": "#comments"
 		}
 	],
 	"repository": {
@@ -33,17 +33,6 @@
 				"name": "constant.other.currency",
 				"match": "\\b(USD|AUD|NZD)\\b"
 			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.hledger",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.hledger",
-					"match": "\\\\."
-				}
-			]
 		}
 	},
 	"scopeName": "source.hledger"
