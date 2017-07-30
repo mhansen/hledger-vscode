@@ -18,10 +18,3 @@ Language support for [HLedger](http://hledger.org/) command-line accounting [jou
 
 - Currency list is a bit light
 - No highlighting of currency amounts
-
-## Release Notes
-
-### 0.0.1
-
-Initial release of hledger-vscode.
-- Syntax highlighting of comments, dates, tags, accounts, directive keywords.
