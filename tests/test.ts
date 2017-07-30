@@ -9,6 +9,7 @@ let files = [
   "CommentsOctothorpe",
   "Currencies",
   "Dates",
+  "Include",
 ];
 
 describe('Hledger test case files. build($name.in.hledger)=$name.want', () => {
@@ -16,7 +17,7 @@ describe('Hledger test case files. build($name.in.hledger)=$name.want', () => {
     it(f, () => {
       let inHledger = fs.readFileSync(`tests/cases/${f}.in.hledger`, {encoding: 'utf8'});
       let want = fs.readFileSync(`tests/cases/${f}.want`, {encoding: 'utf8'});
-      let got = build(inHledger) + '\n';
+      let got = build(inHledger);
       assert.equal(got, want);
     });
   }
