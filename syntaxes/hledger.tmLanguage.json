@@ -51,7 +51,7 @@
 					"end": "$",
 					"patterns": [
 						{
-							"name": "constant.other.tag",
+							"name": "string.unquoted.tag",
 							"match": "\\w+:[^,]*"
 						}
 					]

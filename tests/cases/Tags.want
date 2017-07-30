@@ -6,7 +6,7 @@
                                ^
                                ["comment.line.semicolon"]
                                 ^^^^^^^^^
-                                ["comment.line.semicolon","constant.other.tag"]
+                                ["comment.line.semicolon","string.unquoted.tag"]
     expenses:food    $10   ; a-posting-tag: the tag value
     ^^^^^^^^^^^^^
     ["constant.other.account"]
@@ -15,7 +15,7 @@
                             ^^^^^^^^^^^
                             ["comment.line.semicolon"]
                                        ^^^^^^^^^^^^^^^^^^^
-                                       ["comment.line.semicolon","constant.other.tag"]
+                                       ["comment.line.semicolon","string.unquoted.tag"]
     assets:checking       ; a comment containing tag1:, tag2: some value ...
     ^^^^^^^^^^^^^^^
     ["constant.other.account"]
@@ -24,11 +24,11 @@
                            ^^^^^^^^^^^^^^^^^^^^^^
                            ["comment.line.semicolon"]
                                                  ^^^^^
-                                                 ["comment.line.semicolon","constant.other.tag"]
+                                                 ["comment.line.semicolon","string.unquoted.tag"]
                                                       ^^
                                                       ["comment.line.semicolon"]
                                                         ^^^^^^^^^^^^^^^^^^^^^
-                                                        ["comment.line.semicolon","constant.other.tag"]
+                                                        ["comment.line.semicolon","string.unquoted.tag"]
 
 2010/01/01 foo ; tag:a-b-c
 ^^^^^^^^^^
@@ -38,4 +38,4 @@
                 ^
                 ["comment.line.semicolon"]
                  ^^^^^^^^^^
-                 ["comment.line.semicolon","constant.other.tag"]
+                 ["comment.line.semicolon","string.unquoted.tag"]
