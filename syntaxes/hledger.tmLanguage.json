@@ -21,8 +21,14 @@
 		},
 		"accountnames": {
 			"patterns": [{
-				"name": "constant.character.hledger",
+				"name": "constant.other.account",
 				"match": "\\b(Assets|Liabilities|Expenses|Income|Equity):[\\w:]+\\b"
+			}]
+		},
+		"currencies": {
+			"patterns": [{
+				"name": "constant.other.currency",
+				"match": "\b(USD|AUD|NZD)\b"
 			}]
 		},
 		"strings": {

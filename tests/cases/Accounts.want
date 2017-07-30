@@ -7,14 +7,14 @@
 ^^
 ["source.hledger"]
   ^^^^^^^^^^
-  ["source.hledger","constant.character.hledger"]
+  ["source.hledger","constant.other.account"]
             ^^^^^^^^^
             ["source.hledger"]
   Assets:Bar:Baz   1
 ^^
 ["source.hledger"]
   ^^^^^^^^^^^^^^
-  ["source.hledger","constant.character.hledger"]
+  ["source.hledger","constant.other.account"]
                 ^^^^^
                 ["source.hledger"]
 
@@ -29,14 +29,14 @@
 ^^
 ["source.hledger"]
   ^^^^^^^^^^^^^^
-  ["source.hledger","constant.character.hledger"]
+  ["source.hledger","constant.other.account"]
                 ^^^^^^^
                 ["source.hledger"]
   Expenses:Foo       1
 ^^
 ["source.hledger"]
   ^^^^^^^^^^^^
-  ["source.hledger","constant.character.hledger"]
+  ["source.hledger","constant.other.account"]
               ^^^^^^^^^
               ["source.hledger"]
 
@@ -51,14 +51,14 @@
 ^^
 ["source.hledger"]
   ^^^^^^^^^^^^^^^^^^^
-  ["source.hledger","constant.character.hledger"]
+  ["source.hledger","constant.other.account"]
                      ^^^^^^^
                      ["source.hledger"]
   Equity:Qux              1
 ^^
 ["source.hledger"]
   ^^^^^^^^^^
-  ["source.hledger","constant.character.hledger"]
+  ["source.hledger","constant.other.account"]
             ^^^^^^^^^^^^^^^^
             ["source.hledger"]
 
