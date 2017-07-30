@@ -39,7 +39,7 @@
 			"patterns": [
 				{
 					"name": "constant.other.currency",
-					"match": "\\b(USD|AUD|NZD)\\b"
+					"match": "\\b(AED|AUD|CAD|CHF|EUR|GBP|MXN|NZD|THB|USD)\\b"
 				}
 			]
 		},

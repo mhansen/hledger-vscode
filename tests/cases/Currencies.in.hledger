@@ -2,3 +2,10 @@
   Income:Foo      -1 USD
   Assets:Bar:Baz   1 AUD
   Expenses:Bar     1 NZD
+  Expenses:Bar     1 MXN
+  Expenses:Bar     1 CAD
+  Expenses:Bar     1 AED
+  Expenses:Bar     1 GBP
+  Expenses:Bar     1 CHF
+  Expenses:Bar     1 EUR
+  Expenses:Bar     1 THB

@@ -16,3 +16,38 @@
   ["constant.other.account"]
                      ^^^
                      ["constant.other.currency"]
+  Expenses:Bar     1 MXN
+  ^^^^^^^^^^^^
+  ["constant.other.account"]
+                     ^^^
+                     ["constant.other.currency"]
+  Expenses:Bar     1 CAD
+  ^^^^^^^^^^^^
+  ["constant.other.account"]
+                     ^^^
+                     ["constant.other.currency"]
+  Expenses:Bar     1 AED
+  ^^^^^^^^^^^^
+  ["constant.other.account"]
+                     ^^^
+                     ["constant.other.currency"]
+  Expenses:Bar     1 GBP
+  ^^^^^^^^^^^^
+  ["constant.other.account"]
+                     ^^^
+                     ["constant.other.currency"]
+  Expenses:Bar     1 CHF
+  ^^^^^^^^^^^^
+  ["constant.other.account"]
+                     ^^^
+                     ["constant.other.currency"]
+  Expenses:Bar     1 EUR
+  ^^^^^^^^^^^^
+  ["constant.other.account"]
+                     ^^^
+                     ["constant.other.currency"]
+  Expenses:Bar     1 THB
+  ^^^^^^^^^^^^
+  ["constant.other.account"]
+                     ^^^
+                     ["constant.other.currency"]
