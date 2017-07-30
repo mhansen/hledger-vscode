@@ -4,6 +4,7 @@ import build from './build';
 
 let files = [
   "Accounts",
+  "AccountsLowercase",
   "Comments",
   "Currencies",
   "Dates",

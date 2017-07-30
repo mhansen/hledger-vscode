@@ -1,0 +1,11 @@
+2010/01/02 Foo
+  income:foo      -1
+  assets:bar:baz   1
+
+2010/01/02 Foo
+  assets:bar:baz    -1
+  expenses:foo       1
+
+2010/01/02 Foo
+  liabilities:bar:baz    -1
+  equity:qux              1

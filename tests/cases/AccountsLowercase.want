@@ -1,0 +1,42 @@
+2010/01/02 Foo
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+  income:foo      -1
+^^^^^^^^^^^^^^^^^^^^^
+["source.hledger"]
+  assets:bar:baz   1
+^^^^^^^^^^^^^^^^^^^^^
+["source.hledger"]
+
+^
+["source.hledger"]
+2010/01/02 Foo
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+  assets:bar:baz    -1
+^^^^^^^^^^^^^^^^^^^^^^^
+["source.hledger"]
+  expenses:foo       1
+^^^^^^^^^^^^^^^^^^^^^^^
+["source.hledger"]
+
+^
+["source.hledger"]
+2010/01/02 Foo
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+  liabilities:bar:baz    -1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+["source.hledger"]
+  equity:qux              1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+["source.hledger"]
+
+^
+["source.hledger"]
