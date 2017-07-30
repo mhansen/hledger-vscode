@@ -10,6 +10,9 @@
 		},
 		{
 			"include": "#dates"
+		},
+		{
+			"include":"#currencies"
 		}
 	],
 	"repository": {
@@ -28,7 +31,7 @@
 		"currencies": {
 			"patterns": [{
 				"name": "constant.other.currency",
-				"match": "\b(USD|AUD|NZD)\b"
+				"match": "\\b(USD|AUD|NZD)\\b"
 			}]
 		},
 		"strings": {

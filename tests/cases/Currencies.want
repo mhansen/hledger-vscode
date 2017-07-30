@@ -1,0 +1,35 @@
+2010/01/02 Foo
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+  Income:Foo      -1 USD
+^^
+["source.hledger"]
+  ^^^^^^^^^^
+  ["source.hledger","constant.other.account"]
+            ^^^^^^^^^
+            ["source.hledger"]
+                     ^^^
+                     ["source.hledger","constant.other.currency"]
+  Assets:Bar:Baz   1 AUD
+^^
+["source.hledger"]
+  ^^^^^^^^^^^^^^
+  ["source.hledger","constant.other.account"]
+                ^^^^^
+                ["source.hledger"]
+                     ^^^
+                     ["source.hledger","constant.other.currency"]
+  Expenses:Bar     1 NZD
+^^
+["source.hledger"]
+  ^^^^^^^^^^^^
+  ["source.hledger","constant.other.account"]
+              ^^^^^^^
+              ["source.hledger"]
+                     ^^^
+                     ["source.hledger","constant.other.currency"]
+
+^
+["source.hledger"]
