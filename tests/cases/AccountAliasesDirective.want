@@ -1,0 +1,17 @@
+alias OLD = NEW
+^^^^^
+["keyword.other.accountalias"]
+alias checking = assets:bank:wells fargo:checking
+^^^^^
+["keyword.other.accountalias"]
+                 ^^^^^^^^^^^^^^^^^
+                 ["constant.other.account"]
+alias /REGEX/ = REPLACEMENT
+^^^^^
+["keyword.other.accountalias"]
+alias /^(.+):bank:([^:]+)(.*)/ = \1:\2 \3
+^^^^^
+["keyword.other.accountalias"]
+end aliases
+^^^^^^^^^^^
+["keyword.other.endaccountaliases"]

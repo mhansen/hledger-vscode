@@ -1,0 +1,5 @@
+account assets:bank:checking
+ a comment
+ acct-no:12345
+
+account expenses:food

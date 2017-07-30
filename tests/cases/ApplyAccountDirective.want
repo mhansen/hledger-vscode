@@ -1,0 +1,13 @@
+apply account home
+^^^^^^^^^^^^^
+["keyword.other.applyaccount"]
+
+2010/1/1
+^^^^^^^^
+["constant.numeric.date"]
+    food    $10
+    cash
+
+end apply account
+^^^^^^^^^^^^^^^^^
+["keyword.other.endapplyaccount"]

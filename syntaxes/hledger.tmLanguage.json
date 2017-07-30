@@ -15,7 +15,7 @@
 			"include": "#comments"
 		},
 		{
-			"include": "#includes"
+			"include": "#keywords"
 		}
 	],
 	"repository": {
@@ -55,11 +55,43 @@
 				}
 			]
 		},
-		"includes": {
+		"keywords": {
 			"patterns": [
 				{
 					"name": "keyword.other.include",
 					"match": "^include\\b"
+				},
+				{
+					"name": "keyword.other.commodity",
+					"match": "^commodity\\b"
+				},
+				{
+					"name": "keyword.other.defaultcommodity",
+					"match": "^D\\b"
+				},
+				{
+					"name": "keyword.other.defaultyear",
+					"match": "^Y\\d{4}\\b"
+				},
+				{
+					"name": "keyword.other.applyaccount",
+					"match": "^apply account\\b"
+				},
+				{
+					"name": "keyword.other.endapplyaccount",
+					"match": "^end apply account"
+				},
+				{
+					"name": "keyword.other.account",
+					"match": "^account\\b"
+				},
+				{
+					"name": "keyword.other.accountalias",
+					"match": "^alias\\b"
+				},
+				{
+					"name": "keyword.other.endaccountaliases",
+					"match": "^end aliases"
 				}
 			]
 		}

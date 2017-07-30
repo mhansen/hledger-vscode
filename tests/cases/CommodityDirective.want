@@ -1,0 +1,8 @@
+commodity 1,000.0000 AAAA
+^^^^^^^^^
+["keyword.other.commodity"]
+
+commodity INR
+^^^^^^^^^
+["keyword.other.commodity"]
+  format INR 9,99,99,999.00
