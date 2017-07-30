@@ -14,10 +14,10 @@
             ["variable.other.account"]
                            ^
                            ["comment.line"]
-                            ^^^^^^^^^^^
+                            ^
                             ["comment.line"]
-                                       ^^^^^^^^^^^^^^^^^^^
-                                       ["comment.line","string.unquoted.tag"]
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             ["comment.line","string.unquoted.tag"]
     assets:checking       ; a comment containing tag1:, tag2: some value ...
     ^^^^^^
     ["variable.language.account"]

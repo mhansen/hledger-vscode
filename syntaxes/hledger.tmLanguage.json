@@ -55,7 +55,7 @@
 					"patterns": [
 						{
 							"name": "string.unquoted.tag",
-							"match": "\\w+:[^,]*"
+							"match": "[-\\w]+:[^,]*"
 						}
 					]
 				}
