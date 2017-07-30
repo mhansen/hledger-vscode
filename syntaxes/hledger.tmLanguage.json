@@ -25,7 +25,7 @@
 		"accountnames": {
 			"patterns": [{
 				"name": "constant.other.account",
-				"match": "\\b(Assets|Liabilities|Expenses|Income|Equity):[\\w:]+\\b"
+				"match": "\\b([Aa]ssets|[Ll]iabilities|[Ee]xpenses|[Ii]ncome|[Ee]quity):[\\w:]+\\b"
 			}]
 		},
 		"currencies": {
