@@ -1,0 +1,44 @@
+; foo
+^^^^^
+["source.hledger","comment.line.semicolon"]
+  ; bar
+^^
+["source.hledger"]
+  ^^^^^
+  ["source.hledger","comment.line.semicolon"]
+2010/01/01 Foo ; bar ; baz
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+               ^^^^^^^^^^^
+               ["source.hledger","comment.line.semicolon"]
+  Assets:Foo   -1 USD ; bar ;
+^^
+["source.hledger"]
+  ^^^^^^^^^^
+  ["source.hledger","constant.other.account"]
+            ^^^^^^
+            ["source.hledger"]
+                  ^^^
+                  ["source.hledger","constant.other.currency"]
+                     ^
+                     ["source.hledger"]
+                      ^^^^^^^
+                      ["source.hledger","comment.line.semicolon"]
+  Expenses:Baz  1 USD ; qux ;
+^^
+["source.hledger"]
+  ^^^^^^^^^^^^
+  ["source.hledger","constant.other.account"]
+              ^^^^
+              ["source.hledger"]
+                  ^^^
+                  ["source.hledger","constant.other.currency"]
+                     ^
+                     ["source.hledger"]
+                      ^^^^^^^
+                      ["source.hledger","comment.line.semicolon"]
+
+^
+["source.hledger"]

@@ -33,6 +33,12 @@
 				"name": "constant.other.currency",
 				"match": "\\b(USD|AUD|NZD)\\b"
 			}]
+		},
+		"comments": {
+			"patterns": [{
+				"name": "comment.line.semicolon",
+				"match": ";.*"
+			}]
 		}
 	},
 	"scopeName": "source.hledger"
