@@ -1,26 +1,42 @@
 {
-    "name": "hledger-vscode",
-    "displayName": "hledger-vscode",
-    "description": "Language support for HLedger accounting journals.",
-    "version": "0.0.1",
-    "publisher": "mark-hansen",
-    "engines": {
-        "vscode": "^1.14.0"
-    },
-    "categories": [
-        "Languages"
+  "name": "hledger-vscode",
+  "displayName": "hledger-vscode",
+  "description": "Language support for HLedger accounting journals.",
+  "version": "0.0.1",
+  "publisher": "mark-hansen",
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hledger",
+        "aliases": [
+          "HLedger",
+          "hledger"
+        ],
+        "extensions": [
+          ".hledger"
+        ],
+        "configuration": "./language-configuration.json"
+      }
     ],
-    "contributes": {
-        "languages": [{
-            "id": "hledger",
-            "aliases": ["HLedger", "hledger"],
-            "extensions": [".hledger"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "hledger",
-            "scopeName": "source.hledger",
-            "path": "./syntaxes/hledger.tmLanguage.json"
-        }]
-    }
+    "grammars": [
+      {
+        "language": "hledger",
+        "scopeName": "source.hledger",
+        "path": "./syntaxes/hledger.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.0",
+    "@types/mocha": "^2.2.41",
+    "minimist": "^1.2.0",
+    "mocha": "^3.4.2",
+    "vscode-textmate": "^3.1.5"
+  }
 }
