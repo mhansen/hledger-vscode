@@ -1,0 +1,66 @@
+2010/01/02 Foo
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+  Income:Foo      -1
+^^
+["source.hledger"]
+  ^^^^^^^^^^
+  ["source.hledger","constant.character.hledger"]
+            ^^^^^^^^^
+            ["source.hledger"]
+  Assets:Bar:Baz   1
+^^
+["source.hledger"]
+  ^^^^^^^^^^^^^^
+  ["source.hledger","constant.character.hledger"]
+                ^^^^^
+                ["source.hledger"]
+
+^
+["source.hledger"]
+2010/01/02 Foo
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+  Assets:Bar:Baz    -1
+^^
+["source.hledger"]
+  ^^^^^^^^^^^^^^
+  ["source.hledger","constant.character.hledger"]
+                ^^^^^^^
+                ["source.hledger"]
+  Expenses:Foo       1
+^^
+["source.hledger"]
+  ^^^^^^^^^^^^
+  ["source.hledger","constant.character.hledger"]
+              ^^^^^^^^^
+              ["source.hledger"]
+
+^
+["source.hledger"]
+2010/01/02 Foo
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+  Liabilities:Bar:Baz    -1
+^^
+["source.hledger"]
+  ^^^^^^^^^^^^^^^^^^^
+  ["source.hledger","constant.character.hledger"]
+                     ^^^^^^^
+                     ["source.hledger"]
+  Equity:Qux              1
+^^
+["source.hledger"]
+  ^^^^^^^^^^
+  ["source.hledger","constant.character.hledger"]
+            ^^^^^^^^^^^^^^^^
+            ["source.hledger"]
+
+^
+["source.hledger"]
