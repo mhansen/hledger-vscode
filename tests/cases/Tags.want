@@ -33,3 +33,15 @@
                                                         ["comment.line.semicolon","constant.other.tag"]
                                                              ^^^^^^^^^^^^^^^
                                                              ["comment.line.semicolon"]
+
+2010/01/01 foo ; tag:a-b-c
+^^^^^^^^^^
+["constant.numeric.date"]
+               ^
+               ["comment.line.semicolon"]
+                ^
+                ["comment.line.semicolon"]
+                 ^^^^^
+                 ["comment.line.semicolon","constant.other.tag"]
+                      ^^^^
+                      ["comment.line.semicolon"]
