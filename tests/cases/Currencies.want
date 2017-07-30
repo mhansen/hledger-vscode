@@ -2,52 +2,72 @@
 ^^^^^^^^^^
 ["constant.numeric.date"]
   Income:Foo      -1 USD
-  ^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^
+        ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]
   Assets:Bar:Baz   1 AUD
-  ^^^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^^
+        ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]
   Expenses:Bar     1 NZD
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]
   Expenses:Bar     1 MXN
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]
   Expenses:Bar     1 CAD
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]
   Expenses:Bar     1 AED
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]
   Expenses:Bar     1 GBP
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]
   Expenses:Bar     1 CHF
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]
   Expenses:Bar     1 EUR
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]
   Expenses:Bar     1 THB
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]

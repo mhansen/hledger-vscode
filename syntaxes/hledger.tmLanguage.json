@@ -30,8 +30,11 @@
 		"accountnames": {
 			"patterns": [
 				{
-					"name": "constant.other.account",
-					"match": "\\b([Aa]ssets|[Ll]iabilities|[Ee]xpenses|[Ii]ncome|[Ee]quity):[\\w:]+\\b"
+					"match": "\\b([Aa]ssets|[Ll]iabilities|[Ee]xpenses|[Ii]ncome|[Ee]quity)(:[\\w:]+)\\b",
+					"captures": {
+						"1": { "name": "variable.language.account"},
+						"2": { "name": "variable.other.account"}
+					}
 				}
 			]
 		},

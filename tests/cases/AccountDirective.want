@@ -1,13 +1,17 @@
 account assets:bank:checking
 ^^^^^^^
 ["keyword.other.account"]
-        ^^^^^^^^^^^^^^^^^^^^
-        ["constant.other.account"]
+        ^^^^^^
+        ["variable.language.account"]
+              ^^^^^^^^^^^^^^
+              ["variable.other.account"]
  a comment
  acct-no:12345
 
 account expenses:food
 ^^^^^^^
 ["keyword.other.account"]
-        ^^^^^^^^^^^^^
-        ["constant.other.account"]
+        ^^^^^^^^
+        ["variable.language.account"]
+                ^^^^^
+                ["variable.other.account"]

@@ -10,15 +10,19 @@
                ^^^^^^^^^^^
                ["comment.line.number-sign"]
   Assets:Foo   -1 USD # bar #
-  ^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^
+        ["variable.other.account"]
                   ^^^
                   ["constant.other.currency"]
                       ^^^^^^^
                       ["comment.line.number-sign"]
   Expenses:Baz  1 USD # qux #
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
                   ^^^
                   ["constant.other.currency"]
                       ^^^^^^^

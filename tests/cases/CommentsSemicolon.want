@@ -16,8 +16,10 @@
                 ^^^^^^^^^^
                 ["comment.line.semicolon"]
   Assets:Foo   -1 USD ; bar ;
-  ^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^
+        ["variable.other.account"]
                   ^^^
                   ["constant.other.currency"]
                       ^
@@ -25,8 +27,10 @@
                        ^^^^^^
                        ["comment.line.semicolon"]
   Expenses:Baz  1 USD ; qux ;
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
                   ^^^
                   ["constant.other.currency"]
                       ^

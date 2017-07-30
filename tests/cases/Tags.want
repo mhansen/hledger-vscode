@@ -8,8 +8,10 @@
                                 ^^^^^^^^^
                                 ["comment.line.semicolon","string.unquoted.tag"]
     expenses:food    $10   ; a-posting-tag: the tag value
-    ^^^^^^^^^^^^^
-    ["constant.other.account"]
+    ^^^^^^^^
+    ["variable.language.account"]
+            ^^^^^
+            ["variable.other.account"]
                            ^
                            ["comment.line.semicolon"]
                             ^^^^^^^^^^^
@@ -17,8 +19,10 @@
                                        ^^^^^^^^^^^^^^^^^^^
                                        ["comment.line.semicolon","string.unquoted.tag"]
     assets:checking       ; a comment containing tag1:, tag2: some value ...
-    ^^^^^^^^^^^^^^^
-    ["constant.other.account"]
+    ^^^^^^
+    ["variable.language.account"]
+          ^^^^^^^^^
+          ["variable.other.account"]
                           ^
                           ["comment.line.semicolon"]
                            ^^^^^^^^^^^^^^^^^^^^^^

@@ -2,28 +2,40 @@
 ^^^^^^^^^^
 ["constant.numeric.date"]
   income:foo      -1
-  ^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^
+        ["variable.other.account"]
   assets:bar:baz   1
-  ^^^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^^
+        ["variable.other.account"]
 
 2010/01/02 Foo
 ^^^^^^^^^^
 ["constant.numeric.date"]
   assets:bar:baz    -1
-  ^^^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^^
+        ["variable.other.account"]
   expenses:foo       1
-  ^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
 
 2010/01/02 Foo
 ^^^^^^^^^^
 ["constant.numeric.date"]
   liabilities:bar:baz    -1
-  ^^^^^^^^^^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^^^^^^
+  ["variable.language.account"]
+             ^^^^^^^^
+             ["variable.other.account"]
   equity:qux              1
-  ^^^^^^^^^^
-  ["constant.other.account"]
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^
+        ["variable.other.account"]
