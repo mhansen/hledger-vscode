@@ -1,0 +1,44 @@
+# foo
+^^^^^
+["source.hledger","comment.line.number-sign"]
+  # bar
+^^
+["source.hledger"]
+  ^^^^^
+  ["source.hledger","comment.line.number-sign"]
+2010/01/01 Foo # bar # baz
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+               ^^^^^^^^^^^
+               ["source.hledger","comment.line.number-sign"]
+  Assets:Foo   -1 USD # bar #
+^^
+["source.hledger"]
+  ^^^^^^^^^^
+  ["source.hledger","constant.other.account"]
+            ^^^^^^
+            ["source.hledger"]
+                  ^^^
+                  ["source.hledger","constant.other.currency"]
+                     ^
+                     ["source.hledger"]
+                      ^^^^^^^
+                      ["source.hledger","comment.line.number-sign"]
+  Expenses:Baz  1 USD # qux #
+^^
+["source.hledger"]
+  ^^^^^^^^^^^^
+  ["source.hledger","constant.other.account"]
+              ^^^^
+              ["source.hledger"]
+                  ^^^
+                  ["source.hledger","constant.other.currency"]
+                     ^
+                     ["source.hledger"]
+                      ^^^^^^^
+                      ["source.hledger","comment.line.number-sign"]
+
+^
+["source.hledger"]

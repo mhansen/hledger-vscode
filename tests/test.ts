@@ -5,7 +5,8 @@ import build from './build';
 let files = [
   "Accounts",
   "AccountsLowercase",
-  "Comments",
+  "CommentsSemicolon",
+  "CommentsOctothorpe",
   "Currencies",
   "Dates",
 ];

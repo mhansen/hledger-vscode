@@ -35,10 +35,16 @@
 			}]
 		},
 		"comments": {
-			"patterns": [{
+			"patterns": [
+				{
 				"name": "comment.line.semicolon",
 				"match": ";.*"
-			}]
+			},
+				{
+				"name": "comment.line.number-sign",
+				"match": "#.*"
+			}
+		]
 		}
 	},
 	"scopeName": "source.hledger"
