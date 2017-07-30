@@ -5,7 +5,6 @@
     "noImplicitAny": true
   },
   "exclude": [
-    "cases",
     "node_modules"
   ]
 }
