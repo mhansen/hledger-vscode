@@ -1,6 +1,6 @@
 2010/01/02 Foo
 ^^^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]
   Income:Foo      -1
   ^^^^^^
   ["variable.language.account"]
@@ -14,7 +14,7 @@
 
 2010/01/02 Foo
 ^^^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]
   Assets:Bar:Baz    -1
   ^^^^^^
   ["variable.language.account"]
@@ -28,7 +28,7 @@
 
 2010/01/02 Foo
 ^^^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]
   Liabilities:Bar:Baz    -1
   ^^^^^^^^^^^
   ["variable.language.account"]

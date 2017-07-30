@@ -1,18 +1,18 @@
 2010/01/02 Foo Date
 ^^^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]
 2017/12/31 Bar
 ^^^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]
 2017/12/31 Bar 2017/01/01
 ^^^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]
 2017/1/2 Bar
 ^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]
 2017-1-2 Bar
 ^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]
 2017.1.2 Bar
 ^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]

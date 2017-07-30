@@ -1,20 +1,20 @@
 ; foo
 ^
-["comment.line.semicolon"]
+["comment.line"]
  ^^^^
- ["comment.line.semicolon"]
+ ["comment.line"]
   ; bar
   ^
-  ["comment.line.semicolon"]
+  ["comment.line"]
    ^^^^
-   ["comment.line.semicolon"]
+   ["comment.line"]
 2010/01/01 Foo ; bar ; baz
 ^^^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]
                ^
-               ["comment.line.semicolon"]
+               ["comment.line"]
                 ^^^^^^^^^^
-                ["comment.line.semicolon"]
+                ["comment.line"]
   Assets:Foo   -1 USD ; bar ;
   ^^^^^^
   ["variable.language.account"]
@@ -23,9 +23,9 @@
                   ^^^
                   ["constant.other.currency"]
                       ^
-                      ["comment.line.semicolon"]
+                      ["comment.line"]
                        ^^^^^^
-                       ["comment.line.semicolon"]
+                       ["comment.line"]
   Expenses:Baz  1 USD ; qux ;
   ^^^^^^^^
   ["variable.language.account"]
@@ -34,6 +34,6 @@
                   ^^^
                   ["constant.other.currency"]
                       ^
-                      ["comment.line.semicolon"]
+                      ["comment.line"]
                        ^^^^^^
-                       ["comment.line.semicolon"]
+                       ["comment.line"]

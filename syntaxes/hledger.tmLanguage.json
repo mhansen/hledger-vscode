@@ -22,7 +22,7 @@
 		"dates": {
 			"patterns": [
 				{
-					"name": "constant.numeric.date",
+					"name": "constant.other.date",
 					"match": "^(\\d{4}[-/.])?\\d{1,2}[-/.]\\d{1,2}"
 				}
 			]
@@ -49,8 +49,8 @@
 		"comments": {
 			"patterns": [
 				{
-					"name": "comment.line.semicolon",
-					"begin": ";",
+					"name": "comment.line",
+					"begin": "[#;]",
 					"end": "$",
 					"patterns": [
 						{
@@ -58,10 +58,6 @@
 							"match": "\\w+:[^,]*"
 						}
 					]
-				},
-				{
-					"name": "comment.line.number-sign",
-					"match": "#.*"
 				}
 			]
 		},

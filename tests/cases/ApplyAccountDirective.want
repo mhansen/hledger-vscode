@@ -4,7 +4,7 @@ apply account home
 
 2010/1/1
 ^^^^^^^^
-["constant.numeric.date"]
+["constant.other.date"]
     food    $10
     cash
 
