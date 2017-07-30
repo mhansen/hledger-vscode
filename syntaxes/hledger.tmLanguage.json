@@ -17,34 +17,40 @@
 	],
 	"repository": {
 		"dates": {
-			"patterns": [{
-				"name": "constant.numeric.date",
-				"match": "\\d{4}/\\d{1,2}/\\d{1,2}"
-			}]
+			"patterns": [
+				{
+					"name": "constant.numeric.date",
+					"match": "\\d{4}/\\d{1,2}/\\d{1,2}"
+				}
+			]
 		},
 		"accountnames": {
-			"patterns": [{
-				"name": "constant.other.account",
-				"match": "\\b([Aa]ssets|[Ll]iabilities|[Ee]xpenses|[Ii]ncome|[Ee]quity):[\\w:]+\\b"
-			}]
+			"patterns": [
+				{
+					"name": "constant.other.account",
+					"match": "\\b([Aa]ssets|[Ll]iabilities|[Ee]xpenses|[Ii]ncome|[Ee]quity):[\\w:]+\\b"
+				}
+			]
 		},
 		"currencies": {
-			"patterns": [{
-				"name": "constant.other.currency",
-				"match": "\\b(USD|AUD|NZD)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "constant.other.currency",
+					"match": "\\b(USD|AUD|NZD)\\b"
+				}
+			]
 		},
 		"comments": {
 			"patterns": [
 				{
-				"name": "comment.line.semicolon",
-				"match": ";.*"
-			},
+					"name": "comment.line.semicolon",
+					"match": ";.*"
+				},
 				{
-				"name": "comment.line.number-sign",
-				"match": "#.*"
-			}
-		]
+					"name": "comment.line.number-sign",
+					"match": "#.*"
+				}
+			]
 		}
 	},
 	"scopeName": "source.hledger"
