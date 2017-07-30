@@ -22,6 +22,11 @@
           ["variable.other.account"]
                      ^^^
                      ["constant.other.currency"]
+  Expenses:Bar     1NZD
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^
+          ["variable.other.account"]
   Expenses:Bar     1 MXN
   ^^^^^^^^
   ["variable.language.account"]
