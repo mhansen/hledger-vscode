@@ -6,3 +6,21 @@
 
 ^
 ["source.hledger"]
+2017/12/31 Bar
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+
+^
+["source.hledger"]
+2017/12/31 Bar 2017/01/01
+^^^^^^^^^^
+["source.hledger","constant.numeric.date"]
+          ^^^^^
+          ["source.hledger"]
+               ^^^^^^^^^^
+               ["source.hledger","constant.numeric.date"]
+
+^
+["source.hledger"]
