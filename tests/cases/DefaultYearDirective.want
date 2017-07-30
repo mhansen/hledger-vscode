@@ -1,35 +1,45 @@
 Y2009      ; set default year to 2009
 ^^^^^
 ["keyword.other.defaultyear"]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^
            ["comment.line.semicolon"]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+            ["comment.line.semicolon"]
 
 12/15      ; equivalent to 2009/12/15
 ^^^^^
 ["constant.numeric.date"]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^
            ["comment.line.semicolon"]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+            ["comment.line.semicolon"]
   expenses  1
   assets
 
 Y2010      ; change default year to 2010
 ^^^^^
 ["keyword.other.defaultyear"]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^
            ["comment.line.semicolon"]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            ["comment.line.semicolon"]
 
 2009/1/30  ; specifies the year, not affected
 ^^^^^^^^^
 ["constant.numeric.date"]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^
            ["comment.line.semicolon"]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            ["comment.line.semicolon"]
   expenses  1
   assets
 
 1/31       ; equivalent to 2010/1/31
 ^^^^
 ["constant.numeric.date"]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^
            ["comment.line.semicolon"]
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+            ["comment.line.semicolon"]
   expenses  1
   assets

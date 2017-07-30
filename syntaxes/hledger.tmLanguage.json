@@ -47,7 +47,14 @@
 			"patterns": [
 				{
 					"name": "comment.line.semicolon",
-					"match": ";.*"
+					"begin": ";",
+					"end": "$",
+					"patterns": [
+						{
+							"name": "constant.other.tag",
+							"match": "\\w+:"
+						}
+					]
 				},
 				{
 					"name": "comment.line.number-sign",

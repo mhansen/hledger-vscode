@@ -2,5 +2,7 @@ include path/to/file.journal
 ^^^^^^^
 ["keyword.other.include"]
  include foo/bar/baz.journal ; not starting at col 0
-                             ^^^^^^^^^^^^^^^^^^^^^^^
+                             ^
                              ["comment.line.semicolon"]
+                              ^^^^^^^^^^^^^^^^^^^^^^
+                              ["comment.line.semicolon"]
