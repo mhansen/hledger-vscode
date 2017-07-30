@@ -1,1 +1,2 @@
 include path/to/file.journal
+ include foo/bar/baz.journal ; not starting at col 0
