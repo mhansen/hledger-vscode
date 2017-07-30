@@ -3,3 +3,4 @@
     assets:checking       ; a comment containing tag1:, tag2: some value ...
 
 2010/01/01 foo ; tag:a-b-c
+2010/01/01 foo # tag:a-b-c

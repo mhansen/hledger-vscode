@@ -43,3 +43,12 @@
                 ["comment.line"]
                  ^^^^^^^^^^
                  ["comment.line","string.unquoted.tag"]
+2010/01/01 foo # tag:a-b-c
+^^^^^^^^^^
+["constant.other.date"]
+               ^
+               ["comment.line"]
+                ^
+                ["comment.line"]
+                 ^^^^^^^^^^
+                 ["comment.line","string.unquoted.tag"]
