@@ -59,7 +59,7 @@
 			"patterns": [
 				{
 					"name": "keyword.other.include",
-					"match": "include\\b"
+					"match": "^include\\b"
 				}
 			]
 		}
