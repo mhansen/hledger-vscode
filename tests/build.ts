@@ -11,6 +11,12 @@ export default function build(input: string) : string {
     let r = grammar.tokenizeLine(line, ruleStack);
     lines.push(line);
     for (let t of r.tokens) {
+      // First element is always source.hledger. Drop it.
+      t.scopes.shift();
+      if (t.scopes.length == 0) {
+        // If we have no scopes, skip
+        continue;
+      }
       let line = '';
       let i = 0;
       for (; i < t.startIndex; i++) {

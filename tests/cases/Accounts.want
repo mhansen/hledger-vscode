@@ -1,66 +1,29 @@
 2010/01/02 Foo
 ^^^^^^^^^^
-["source.hledger","constant.numeric.date"]
-          ^^^^^
-          ["source.hledger"]
+["constant.numeric.date"]
   Income:Foo      -1
-^^
-["source.hledger"]
   ^^^^^^^^^^
-  ["source.hledger","constant.other.account"]
-            ^^^^^^^^^
-            ["source.hledger"]
+  ["constant.other.account"]
   Assets:Bar:Baz   1
-^^
-["source.hledger"]
   ^^^^^^^^^^^^^^
-  ["source.hledger","constant.other.account"]
-                ^^^^^
-                ["source.hledger"]
+  ["constant.other.account"]
 
-^
-["source.hledger"]
 2010/01/02 Foo
 ^^^^^^^^^^
-["source.hledger","constant.numeric.date"]
-          ^^^^^
-          ["source.hledger"]
+["constant.numeric.date"]
   Assets:Bar:Baz    -1
-^^
-["source.hledger"]
   ^^^^^^^^^^^^^^
-  ["source.hledger","constant.other.account"]
-                ^^^^^^^
-                ["source.hledger"]
+  ["constant.other.account"]
   Expenses:Foo       1
-^^
-["source.hledger"]
   ^^^^^^^^^^^^
-  ["source.hledger","constant.other.account"]
-              ^^^^^^^^^
-              ["source.hledger"]
+  ["constant.other.account"]
 
-^
-["source.hledger"]
 2010/01/02 Foo
 ^^^^^^^^^^
-["source.hledger","constant.numeric.date"]
-          ^^^^^
-          ["source.hledger"]
+["constant.numeric.date"]
   Liabilities:Bar:Baz    -1
-^^
-["source.hledger"]
   ^^^^^^^^^^^^^^^^^^^
-  ["source.hledger","constant.other.account"]
-                     ^^^^^^^
-                     ["source.hledger"]
+  ["constant.other.account"]
   Equity:Qux              1
-^^
-["source.hledger"]
   ^^^^^^^^^^
-  ["source.hledger","constant.other.account"]
-            ^^^^^^^^^^^^^^^^
-            ["source.hledger"]
-
-^
-["source.hledger"]
+  ["constant.other.account"]
