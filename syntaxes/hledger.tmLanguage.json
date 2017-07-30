@@ -3,7 +3,7 @@
 	"name": "HLedger",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"include": "#accountnames"
 		},
 		{
 			"include": "#strings"
@@ -19,10 +19,10 @@
 				"match": "\\d{4}/\\d{2}/\\d{2}"
 			}]
 		},
-		"keywords": {
+		"accountnames": {
 			"patterns": [{
-				"name": "keyword.control.hledger",
-				"match": "\\b(if|while|for|return)\\b"
+				"name": "constant.character.hledger",
+				"match": "\\b(Assets|Liabilities|Expenses|Income|Equity):[\\w:]+\\b"
 			}]
 		},
 		"strings": {
