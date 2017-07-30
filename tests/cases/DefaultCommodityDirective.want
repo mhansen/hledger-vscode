@@ -9,6 +9,8 @@ D $1,000.00
 ["keyword.other.defaultcommodity"]
 
 1/1
+^^^
+["constant.numeric.date"]
   a     5    # <- commodity-less amount, becomes $1
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
              ["comment.line.number-sign"]
