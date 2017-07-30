@@ -13,6 +13,9 @@
 		},
 		{
 			"include": "#comments"
+		},
+		{
+			"include": "#includes"
 		}
 	],
 	"repository": {
@@ -49,6 +52,14 @@
 				{
 					"name": "comment.line.number-sign",
 					"match": "#.*"
+				}
+			]
+		},
+		"includes": {
+			"patterns": [
+				{
+					"name": "keyword.other.include",
+					"match": "include\\b"
 				}
 			]
 		}
