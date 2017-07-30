@@ -1,10 +1,9 @@
 import * as vt from 'vscode-textmate/release/main';
 import * as fs from 'fs';
-import * as parseArgs from 'minimist';
 
-function parseHledger(input: string) : string {
+export default function build(input: string) : string {
   const register = new vt.Registry();
-  const grammar = register.loadGrammarFromPathSync("../syntaxes/hledger.tmLanguage.json");
+  const grammar = register.loadGrammarFromPathSync("syntaxes/hledger.tmLanguage.json");
 
   let ruleStack = null;
   let lines = [];
@@ -32,8 +31,3 @@ function parseHledger(input: string) : string {
   }
   return lines.join('\n');
 }
-
-for (let arg of parseArgs(process.argv.slice(2))._) {
-  console.log(parseHledger(fs.readFileSync(arg, {encoding:'utf8'})));
-}
-
