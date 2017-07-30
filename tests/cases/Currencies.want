@@ -27,6 +27,8 @@
   ["variable.language.account"]
           ^^^^
           ["variable.other.account"]
+                    ^^^
+                    ["constant.other.currency"]
   Expenses:Bar     1 MXN
   ^^^^^^^^
   ["variable.language.account"]
