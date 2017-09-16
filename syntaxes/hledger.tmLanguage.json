@@ -41,8 +41,12 @@
 		"currencies": {
 			"patterns": [
 				{
-					"name": "constant.other.currency",
-					"match": "(AED|AUD|CAD|CHF|EUR|GBP|MXN|NZD|THB|USD)\\b"
+					"match": "[ \\d](AED|AUD|CAD|CHF|EUR|GBP|MXN|NZD|THB|USD)\\b",
+					"captures": {
+						"1": {
+							"name": "constant.other.currency"
+						}
+					}
 				}
 			]
 		},
