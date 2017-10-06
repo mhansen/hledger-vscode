@@ -1,12 +1,209 @@
 2010/01/02 Foo
   Income:Foo      -1 USD
-  Assets:Bar:Baz   1 AUD
-  Expenses:Bar     1 NZD
   Expenses:Bar     1NZD
-  Expenses:Bar     1 MXN
-  Expenses:Bar     1 CAD
+  Expenses:Bar     $1
+  Expenses:Bar     £1
+  Expenses:Bar     ¥1
+  Expenses:Bar     ฿1
+  Expenses:Bar     ¢1
+  Expenses:Bar     ₡1
+  Expenses:Bar     ₢1
+  Expenses:Bar     ₣1
+  Expenses:Bar     ₤1
+  Expenses:Bar     ₥1
+  Expenses:Bar     ₦1
+  Expenses:Bar     ₧1
+  Expenses:Bar     ₨1
+  Expenses:Bar     ₩1
+  Expenses:Bar     ₪1
+  Expenses:Bar     ₫1
+  Expenses:Bar     €1
+  Expenses:Bar     ₭1
+  Expenses:Bar     ₮1
+  Expenses:Bar     ₯1
+  Expenses:Bar     ¤1
+  Expenses:Bar     ₠ 1
+  Expenses:Bar     ₰ 1
+  Expenses:Bar     ₱ 1
   Expenses:Bar     1 AED
-  Expenses:Bar     1 GBP
+  Expenses:Bar     1 AFN
+  Expenses:Bar     1 ALL
+  Expenses:Bar     1 AMD
+  Expenses:Bar     1 ANG
+  Expenses:Bar     1 AOA
+  Expenses:Bar     1 ARS
+  Expenses:Bar     1 AUD
+  Expenses:Bar     1 AWG
+  Expenses:Bar     1 AZN
+  Expenses:Bar     1 BAM
+  Expenses:Bar     1 BBD
+  Expenses:Bar     1 BDT
+  Expenses:Bar     1 BGN
+  Expenses:Bar     1 BHD
+  Expenses:Bar     1 BIF
+  Expenses:Bar     1 BMD
+  Expenses:Bar     1 BND
+  Expenses:Bar     1 BOB
+  Expenses:Bar     1 BOV
+  Expenses:Bar     1 BRL
+  Expenses:Bar     1 BSD
+  Expenses:Bar     1 BTN
+  Expenses:Bar     1 BWP
+  Expenses:Bar     1 BYR
+  Expenses:Bar     1 BZD
+  Expenses:Bar     1 CAD
+  Expenses:Bar     1 CDF
+  Expenses:Bar     1 CHE
   Expenses:Bar     1 CHF
+  Expenses:Bar     1 CHW
+  Expenses:Bar     1 CLF
+  Expenses:Bar     1 CLP
+  Expenses:Bar     1 CNY
+  Expenses:Bar     1 COP
+  Expenses:Bar     1 COU
+  Expenses:Bar     1 CRC
+  Expenses:Bar     1 CUC
+  Expenses:Bar     1 CUP
+  Expenses:Bar     1 CVE
+  Expenses:Bar     1 CZK
+  Expenses:Bar     1 DJF
+  Expenses:Bar     1 DKK
+  Expenses:Bar     1 DOP
+  Expenses:Bar     1 DZD
+  Expenses:Bar     1 EGP
+  Expenses:Bar     1 ERN
+  Expenses:Bar     1 ETB
   Expenses:Bar     1 EUR
+  Expenses:Bar     1 FJD
+  Expenses:Bar     1 FKP
+  Expenses:Bar     1 GBP
+  Expenses:Bar     1 GEL
+  Expenses:Bar     1 GHS
+  Expenses:Bar     1 GIP
+  Expenses:Bar     1 GMD
+  Expenses:Bar     1 GNF
+  Expenses:Bar     1 GTQ
+  Expenses:Bar     1 GYD
+  Expenses:Bar     1 HKD
+  Expenses:Bar     1 HNL
+  Expenses:Bar     1 HRK
+  Expenses:Bar     1 HTG
+  Expenses:Bar     1 HUF
+  Expenses:Bar     1 IDR
+  Expenses:Bar     1 ILS
+  Expenses:Bar     1 INR
+  Expenses:Bar     1 IQD
+  Expenses:Bar     1 IRR
+  Expenses:Bar     1 ISK
+  Expenses:Bar     1 JMD
+  Expenses:Bar     1 JOD
+  Expenses:Bar     1 JPY
+  Expenses:Bar     1 KES
+  Expenses:Bar     1 KGS
+  Expenses:Bar     1 KHR
+  Expenses:Bar     1 KMF
+  Expenses:Bar     1 KPW
+  Expenses:Bar     1 KRW
+  Expenses:Bar     1 KWD
+  Expenses:Bar     1 KYD
+  Expenses:Bar     1 KZT
+  Expenses:Bar     1 LAK
+  Expenses:Bar     1 LBP
+  Expenses:Bar     1 LKR
+  Expenses:Bar     1 LRD
+  Expenses:Bar     1 LSL
+  Expenses:Bar     1 LTL
+  Expenses:Bar     1 LVL
+  Expenses:Bar     1 LYD
+  Expenses:Bar     1 MAD
+  Expenses:Bar     1 MDL
+  Expenses:Bar     1 MGA
+  Expenses:Bar     1 MKD
+  Expenses:Bar     1 MMK
+  Expenses:Bar     1 MNT
+  Expenses:Bar     1 MOP
+  Expenses:Bar     1 MRO
+  Expenses:Bar     1 MUR
+  Expenses:Bar     1 MVR
+  Expenses:Bar     1 MWK
+  Expenses:Bar     1 MXN
+  Expenses:Bar     1 MXV
+  Expenses:Bar     1 MYR
+  Expenses:Bar     1 MZN
+  Expenses:Bar     1 NAD
+  Expenses:Bar     1 NGN
+  Expenses:Bar     1 NIO
+  Expenses:Bar     1 NOK
+  Expenses:Bar     1 NPR
+  Expenses:Bar     1 NZD
+  Expenses:Bar     1 OMR
+  Expenses:Bar     1 PAB
+  Expenses:Bar     1 PEN
+  Expenses:Bar     1 PGK
+  Expenses:Bar     1 PHP
+  Expenses:Bar     1 PKR
+  Expenses:Bar     1 PLN
+  Expenses:Bar     1 PYG
+  Expenses:Bar     1 QAR
+  Expenses:Bar     1 RON
+  Expenses:Bar     1 RSD
+  Expenses:Bar     1 RUB
+  Expenses:Bar     1 RWF
+  Expenses:Bar     1 SAR
+  Expenses:Bar     1 SBD
+  Expenses:Bar     1 SCR
+  Expenses:Bar     1 SDG
+  Expenses:Bar     1 SEK
+  Expenses:Bar     1 SGD
+  Expenses:Bar     1 SHP
+  Expenses:Bar     1 SLL
+  Expenses:Bar     1 SOS
+  Expenses:Bar     1 SRD
+  Expenses:Bar     1 SSP
+  Expenses:Bar     1 STD
+  Expenses:Bar     1 SVC
+  Expenses:Bar     1 SYP
+  Expenses:Bar     1 SZL
   Expenses:Bar     1 THB
+  Expenses:Bar     1 TJS
+  Expenses:Bar     1 TMT
+  Expenses:Bar     1 TND
+  Expenses:Bar     1 TOP
+  Expenses:Bar     1 TRY
+  Expenses:Bar     1 TTD
+  Expenses:Bar     1 TWD
+  Expenses:Bar     1 TZS
+  Expenses:Bar     1 UAH
+  Expenses:Bar     1 UGX
+  Expenses:Bar     1 USD
+  Expenses:Bar     1 USN
+  Expenses:Bar     1 USS
+  Expenses:Bar     1 UYI
+  Expenses:Bar     1 UYU
+  Expenses:Bar     1 UZS
+  Expenses:Bar     1 VEF
+  Expenses:Bar     1 VND
+  Expenses:Bar     1 VUV
+  Expenses:Bar     1 WST
+  Expenses:Bar     1 XAF
+  Expenses:Bar     1 XAG
+  Expenses:Bar     1 XAU
+  Expenses:Bar     1 XBA
+  Expenses:Bar     1 XBB
+  Expenses:Bar     1 XBC
+  Expenses:Bar     1 XBD
+  Expenses:Bar     1 XCD
+  Expenses:Bar     1 XDR
+  Expenses:Bar     1 XFU
+  Expenses:Bar     1 XOF
+  Expenses:Bar     1 XPD
+  Expenses:Bar     1 XPF
+  Expenses:Bar     1 XPT
+  Expenses:Bar     1 XSU
+  Expenses:Bar     1 XTS
+  Expenses:Bar     1 XUA
+  Expenses:Bar     1 XXX
+  Expenses:Bar     1 YER
+  Expenses:Bar     1 ZAR
+  Expenses:Bar     1 ZMK
+  Expenses:Bar     1 ZWL
