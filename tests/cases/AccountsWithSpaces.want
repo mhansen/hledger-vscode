@@ -1,0 +1,24 @@
+2010/01/01 Foo
+^^^^^^^^^^
+["constant.other.date"]
+  Assets:With Spaces             10 USD
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^^^^^^
+        ["variable.other.account"]
+                                    ^^^
+                                    ["constant.other.currency"]
+  Assets:With Even More Spaces  -5 USD
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^^^^^^^^^^^^^^^^
+        ["variable.other.account"]
+                                   ^^^
+                                   ["constant.other.currency"]
+  Assets:Ending With Colon:     -5 USD
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^^^^^^^^^^^^^
+        ["variable.other.account"]
+                                   ^^^
+                                   ["constant.other.currency"]

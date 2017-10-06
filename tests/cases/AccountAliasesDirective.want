@@ -6,7 +6,7 @@ alias checking = assets:bank:wells fargo:checking
 ["keyword.other.accountalias"]
                  ^^^^^^
                  ["variable.language.account"]
-                       ^^^^^^^^^^^
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
                        ["variable.other.account"]
 alias /REGEX/ = REPLACEMENT
 ^^^^^

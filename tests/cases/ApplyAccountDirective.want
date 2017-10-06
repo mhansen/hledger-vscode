@@ -6,6 +6,8 @@ apply account home
 ^^^^^^^^
 ["constant.other.date"]
     food    $10
+            ^
+            ["constant.other.currency"]
     cash
 
 end apply account

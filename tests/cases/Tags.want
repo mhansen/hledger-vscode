@@ -12,6 +12,8 @@
     ["variable.language.account"]
             ^^^^^
             ["variable.other.account"]
+                     ^
+                     ["constant.other.currency"]
                            ^
                            ["comment.line"]
                             ^
