@@ -23,7 +23,8 @@
           "hledger"
         ],
         "extensions": [
-          ".hledger"
+          ".hledger",
+          ".journal"
         ],
         "configuration": "./language-configuration.json"
       }
