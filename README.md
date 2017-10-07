@@ -16,8 +16,7 @@ Language support for [HLedger](http://hledger.org/) command-line accounting [jou
 
 ## Known Issues
 
-- Currency list is a bit light
-- No highlighting of currency amounts
+- No highlighting of amounts (numbers)
 
 ## Updating Tests
 
