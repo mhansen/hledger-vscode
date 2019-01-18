@@ -9,3 +9,7 @@
 2010/01/02 Foo
   Liabilities:Bar:Baz    -1
   Equity:Qux              1
+
+2010/01/02 Foo
+  Revenue:Foo      -1
+  Assets:Bar:Baz   1

@@ -39,3 +39,17 @@
   ["variable.language.account"]
         ^^^^
         ["variable.other.account"]
+
+2010/01/02 Foo
+^^^^^^^^^^
+["constant.other.date"]
+  Revenue:Foo      -1
+  ^^^^^^^
+  ["variable.language.account"]
+        ^^^^
+        ["variable.other.account"]
+  Assets:Bar:Baz   1
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^^
+        ["variable.other.account"]
