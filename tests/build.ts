@@ -1,5 +1,4 @@
 import * as vt from 'vscode-textmate/release/main';
-import * as fs from 'fs';
 
 export default function build(input: string) : string {
   const register = new vt.Registry();
