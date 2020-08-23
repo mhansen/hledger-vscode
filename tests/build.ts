@@ -1,8 +1,25 @@
-import * as vt from 'vscode-textmate/release/main';
+import * as fs from 'fs';
+import * as vsctm from 'vscode-textmate/release/main';
+import * as oniguruma from 'oniguruma';
 
-export default function build(input: string) : string {
-  const register = new vt.Registry();
-  const grammar = register.loadGrammarFromPathSync("syntaxes/hledger.tmLanguage.json");
+export default async function build(input: string) : Promise<string> {
+  const registry = new vsctm.Registry({
+    onigLib: Promise.resolve({
+      createOnigScanner: (sources) => new oniguruma.OnigScanner(sources),
+      createOnigString: (str) => new oniguruma.OnigString(str)
+    }),
+    loadGrammar: async (scopeName: string) => {
+      // https://github.com/textmate/javascript.tmbundle/blob/master/Syntaxes/JavaScript.plist
+      const fileName = 'syntaxes/hledger.tmLanguage.json';
+      if (scopeName === 'source.hledger') {
+        let g = vsctm.parseRawGrammar(fs.readFileSync(fileName).toString(), fileName)
+        return g;
+      }
+      console.log(`Unknown scope name: ${scopeName}`);
+      return null;
+    }
+  });
+  const grammar = await registry.loadGrammar('source.hledger');
 
   let ruleStack = null;
   let lines = [];
