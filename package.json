@@ -41,7 +41,7 @@
   "devDependencies": {
     "@types/minimist": "^1.2.0",
     "@types/mocha": "^2.2.41",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "mocha": "^3.4.2",
     "vscode-textmate": "^3.1.5"
   }
