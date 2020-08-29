@@ -11,6 +11,9 @@
   "engines": {
     "vscode": "^1.14.0"
   },
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/test.ts"
+  },
   "categories": [
     "Programming Languages"
   ],

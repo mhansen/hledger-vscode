@@ -22,7 +22,7 @@ Language support for [HLedger](http://hledger.org/) command-line accounting [jou
 
 We have golden file tests under `tests/cases`, containing example
 `.in.hledger` files, and syntax-highlighted `.want` files. Run the tests with
-`mocha -r ts-node/register tests/test.ts`.
+`npm test`.
 
 If you've examined the differences and they're expected, rebuild the golden files by running
 `ts-node tests/main.ts tests/cases/*.in.hledger`.
