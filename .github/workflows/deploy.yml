@@ -1,8 +1,5 @@
 name: Deploy Extension
-on:
-  push:
-    tags:
-      - "*"
+on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-latest
