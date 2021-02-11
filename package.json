@@ -50,7 +50,7 @@
     "mocha": "^8.2.1",
     "oniguruma": "^7.2.1",
     "ts-node": "^9.1.1",
-    "typescript": "^4.1.4",
+    "typescript": "^4.1.5",
     "vscode-textmate": "^5.2.0"
   }
 }
