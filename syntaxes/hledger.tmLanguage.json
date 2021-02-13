@@ -21,6 +21,9 @@
 			"include": "#accountaliasdirective"
 		},
 		{
+			"include": "#accountdirective"
+		},
+		{
 			"include": "#commoditydirective"
 		},
 		{
@@ -86,6 +89,14 @@
 				}
 			]
 		},
+		"accountdirective": {
+      "patterns": [
+				{
+					"name": "keyword.other.account",
+					"match": "^account\\b"
+				}
+      ]
+    },
 		"commoditydirective": {
 			"patterns": [
 				{
@@ -142,10 +153,6 @@
 				{
 					"name": "keyword.other.endapplyaccount",
 					"match": "^end apply account"
-				},
-				{
-					"name": "keyword.other.account",
-					"match": "^account\\b"
 				},
 				{
 					"name": "keyword.other.endaccountaliases",
