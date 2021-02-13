@@ -1,0 +1,3 @@
+2000-01-01 Ending with a colon is ok
+  Expenses:Foo:  1
+  Income:Salary:

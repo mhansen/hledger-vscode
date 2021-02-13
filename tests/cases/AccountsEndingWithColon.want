@@ -1,0 +1,15 @@
+2000-01-01 Ending with a colon is ok
+^^^^^^^^^^
+["constant.other.date"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ["constant.string.desc"]
+  Expenses:Foo:  1
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^^
+          ["variable.other.account"]
+  Income:Salary:
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^^
+        ["variable.other.account"]
