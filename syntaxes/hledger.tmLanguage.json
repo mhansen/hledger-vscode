@@ -6,12 +6,6 @@
 			"include": "#accountnames"
 		},
 		{
-			"include": "#dates"
-		},
-		{
-			"include": "#currencies"
-		},
-		{
 			"include": "#comments"
 		},
 		{
@@ -28,15 +22,22 @@
 		},
 		{
 			"include": "#defaultcommoditydirective"
+		},
+		{
+			"include": "#transaction"
 		}
 	],
 	"repository": {
-		"dates": {
+		"transaction": {
+			"begin": "^((\\d{4}[-/.])?\\d{1,2}[-/.]\\d{1,2})",
+			"beginCaptures": {
+				"1": { "name": "constant.other.date" }
+			},
+			"while": "^ ",
 			"patterns": [
-				{
-					"name": "constant.other.date",
-					"match": "^(\\d{4}[-/.])?\\d{1,2}[-/.]\\d{1,2}"
-				}
+			  {"include": "#accountnames"},
+			  {"include": "#currencies"},
+			  {"include": "#comments"}
 			]
 		},
 		"accountnames": {
