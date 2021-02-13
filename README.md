@@ -6,9 +6,9 @@ Language support for [HLedger](http://hledger.org/) command-line accounting [jou
 
 - Syntax highlighting
 
-![Syntax Highlighting](images/screenshot.png)
+![Syntax Highlighting](https://raw.githubusercontent.com/mhansen/hledger-vscode/main/images/screenshot.png)
 
-![Highlighting of tags](images/feature-tags.png)
+![Highlighting of tags](https://raw.githubusercontent.com/mhansen/hledger-vscode/main/images/feature-tags.png)
 
 ### Todo:
 
@@ -18,7 +18,9 @@ Language support for [HLedger](http://hledger.org/) command-line accounting [jou
 
 - No highlighting of amounts (numbers)
 
-## Updating Tests
+## Development
+
+### Updating Tests
 
 We have golden file tests under `tests/cases`, containing example
 `.in.hledger` files, and syntax-highlighted `.want` files. Run the tests with

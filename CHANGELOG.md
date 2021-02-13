@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.7
+
+- Fix images in README to render.
+
 ## 0.0.6
 
 - Supports arbitrary account names, not just Income/Expenses/Assets/Liabilities/Equity.
