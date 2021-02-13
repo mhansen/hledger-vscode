@@ -18,8 +18,12 @@ D $1,000.00
 ^^^
 ["constant.other.date"]
   a     5    # <- commodity-less amount, becomes $1
+  ^
+  ["variable.other.account"]
              ^
              ["comment.line"]
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
               ["comment.line"]
   b
+  ^
+  ["variable.other.account"]

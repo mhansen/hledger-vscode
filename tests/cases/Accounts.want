@@ -4,15 +4,11 @@
            ^^^^
            ["constant.string.desc"]
   Income:Foo      -1
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^
+  ["variable.other.account"]
   Assets:Bar:Baz   1
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^^^^^
+  ["variable.other.account"]
 
 2010/01/02 Foo
 ^^^^^^^^^^
@@ -20,15 +16,11 @@
            ^^^^
            ["constant.string.desc"]
   Assets:Bar:Baz    -1
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^^^^^
+  ["variable.other.account"]
   Expenses:Foo       1
-  ^^^^^^^^
-  ["variable.language.account"]
-          ^^^^
-          ["variable.other.account"]
+  ^^^^^^^^^^^^
+  ["variable.other.account"]
 
 2010/01/02 Foo
 ^^^^^^^^^^
@@ -36,12 +28,8 @@
            ^^^^
            ["constant.string.desc"]
   Liabilities:Bar:Baz    -1
-  ^^^^^^^^^^^
-  ["variable.language.account"]
-             ^^^^^^^^
-             ["variable.other.account"]
+  ^^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]
   Equity:Qux              1
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^
+  ["variable.other.account"]

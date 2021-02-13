@@ -4,4 +4,8 @@
            ^^^^^^^^^^^^
            ["constant.string.desc"]
   AAssets:Bank  -100
+  ^^^^^^^^^^^^
+  ["variable.other.account"]
   EExpenses:Food  100
+  ^^^^^^^^^^^^^^
+  ["variable.other.account"]

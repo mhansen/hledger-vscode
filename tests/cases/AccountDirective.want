@@ -1,14 +1,8 @@
 account assets:bank:checking  ; same-line comment, note 2+ spaces before ;
 ^^^^^^^
 ["keyword.other.account"]
-        ^^^^^^
-        ["variable.language.account"]
-              ^^^^^^^^^^^^^^
-              ["variable.other.account"]
-                              ^
-                              ["comment.line"]
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                               ["comment.line"]
+       ^^^^^^^^^^^^^^^^^^^^^
+       ["variable.other.account"]
   ; next-line comment
   ^
   ["comment.line"]
@@ -25,10 +19,8 @@ account assets:bank:checking  ; same-line comment, note 2+ spaces before ;
 account assets:bank:checking
 ^^^^^^^
 ["keyword.other.account"]
-        ^^^^^^
-        ["variable.language.account"]
-              ^^^^^^^^^^^^^^
-              ["variable.other.account"]
+       ^^^^^^^^^^^^^^^^^^^^^
+       ["variable.other.account"]
   format blah blah  ; <- subdirective, ignored
                     ^
                     ["comment.line"]
@@ -38,7 +30,5 @@ account assets:bank:checking
 account expenses:food
 ^^^^^^^
 ["keyword.other.account"]
-        ^^^^^^^^
-        ["variable.language.account"]
-                ^^^^^
-                ["variable.other.account"]
+       ^^^^^^^^^^^^^^
+       ["variable.other.account"]

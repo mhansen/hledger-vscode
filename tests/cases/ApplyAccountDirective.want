@@ -6,9 +6,13 @@ apply account home
 ^^^^^^^^
 ["constant.other.date"]
     food    $10
+    ^^^^
+    ["variable.other.account"]
             ^
             ["constant.other.currency"]
     cash
+    ^^^^
+    ["variable.other.account"]
 
 end apply account
 ^^^^^^^^^^^^^^^^^

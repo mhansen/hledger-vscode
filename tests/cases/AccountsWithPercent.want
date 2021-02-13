@@ -4,12 +4,8 @@
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
            ["constant.string.desc"]
   Income:Percentage
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^^^^^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]
   Assets:Foo%  1
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^^
+  ["variable.other.account"]

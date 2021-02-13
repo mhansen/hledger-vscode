@@ -3,9 +3,6 @@
 	"name": "HLedger",
 	"patterns": [
 		{
-			"include": "#accountnames"
-		},
-		{
 			"include": "#comments"
 		},
 		{
@@ -34,7 +31,7 @@
 				"1": { "name": "constant.other.date" },
 				"4": {"name": "constant.string.desc"}
 			},
-			"while": "^ ",
+			"while": "^[ \\t]+",
 			"patterns": [
 			  {"include": "#accountnames"},
 			  {"include": "#currencies"},
@@ -44,10 +41,9 @@
 		"accountnames": {
 			"patterns": [
 				{
-					"match": "\\b([Aa]ssets|[Ll]iabilities|[Ee]xpenses|[Ii]ncome|[Ee]quity)(( ?[^\\s#*;])+)",
+					"match": "\\G(( ?[^\\s#*;])+)",
 					"captures": {
-						"1": { "name": "variable.language.account"},
-						"2": { "name": "variable.other.account"}
+						"1": { "name": "variable.other.account"}
 					}
 				}
 			]
@@ -94,8 +90,14 @@
 		"accountdirective": {
       "patterns": [
 				{
-					"name": "keyword.other.account",
-					"match": "^account\\b"
+					"begin": "^(account)\\b",
+					"beginCaptures": {
+						"1": {"name": "keyword.other.account"}
+					},
+					"end": "$",
+					"patterns": [
+						{"include": "#accountnames"}
+					]
 				}
       ]
     },

@@ -4,12 +4,12 @@
            ^^^^^^^^^^^^^^^^^
            ["constant.string.desc"]
   Inntekter:Lønn       -1000 NOK
+  ^^^^^^^^^^^^^^
+  ["variable.other.account"]
                              ^^^
                              ["constant.other.currency"]
   Assets:Skandiabanken  1000 NOK
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^^^^^^^^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]
                              ^^^
                              ["constant.other.currency"]

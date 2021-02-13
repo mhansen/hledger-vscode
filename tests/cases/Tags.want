@@ -10,10 +10,8 @@
                                 ^^^^^^^^^
                                 ["comment.line","string.unquoted.tag"]
     expenses:food    $10   ; a-posting-tag: the tag value
-    ^^^^^^^^
-    ["variable.language.account"]
-            ^^^^^
-            ["variable.other.account"]
+    ^^^^^^^^^^^^^
+    ["variable.other.account"]
                      ^
                      ["constant.other.currency"]
                            ^
@@ -23,10 +21,8 @@
                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
                              ["comment.line","string.unquoted.tag"]
     assets:checking       ; a comment containing tag1:, tag2: some value ...
-    ^^^^^^
-    ["variable.language.account"]
-          ^^^^^^^^^
-          ["variable.other.account"]
+    ^^^^^^^^^^^^^^^
+    ["variable.other.account"]
                           ^
                           ["comment.line"]
                            ^^^^^^^^^^^^^^^^^^^^^^

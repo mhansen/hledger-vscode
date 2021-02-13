@@ -18,10 +18,8 @@
                 ^^^^^^^^^^
                 ["comment.line"]
   Assets:Foo   -1 USD # bar #
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^
+  ["variable.other.account"]
                   ^^^
                   ["constant.other.currency"]
                       ^
@@ -29,10 +27,8 @@
                        ^^^^^^
                        ["comment.line"]
   Expenses:Baz  1 USD # qux #
-  ^^^^^^^^
-  ["variable.language.account"]
-          ^^^^
-          ["variable.other.account"]
+  ^^^^^^^^^^^^
+  ["variable.other.account"]
                   ^^^
                   ["constant.other.currency"]
                       ^

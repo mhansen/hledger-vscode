@@ -4,8 +4,8 @@
            ^^^^^^^^^^^^^^^^^^^^^^^^
            ["constant.string.desc"]
   Account With  Too   Many   Spaces  10
+  ^^^^^^^^^^^^
+  ["variable.other.account"]
   IncomeWithNoSpaces  -10
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^^^^^^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]

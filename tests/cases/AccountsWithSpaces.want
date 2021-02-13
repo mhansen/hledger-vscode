@@ -4,23 +4,17 @@
            ^^^^
            ["constant.string.desc"]
   Assets:With Spaces             10 USD
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^^^^^^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]
                                     ^^^
                                     ["constant.other.currency"]
   Assets:With Even More Spaces  -5 USD
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^^^^^^^^^^^^^^^^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]
                                    ^^^
                                    ["constant.other.currency"]
   Assets:Ending With Colon:     -5 USD
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^^^^^^^^^^^^^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]
                                    ^^^
                                    ["constant.other.currency"]

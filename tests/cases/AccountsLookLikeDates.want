@@ -1,0 +1,9 @@
+2000-01-01
+^^^^^^^^^^
+["constant.other.date"]
+  2000-01-01 This is an account  10
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]
+  01-01=This is also an account  -10
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]

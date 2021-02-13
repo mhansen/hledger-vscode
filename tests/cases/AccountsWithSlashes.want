@@ -4,12 +4,8 @@
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
            ["constant.string.desc"]
   Income:Profit\Loss  -1
-  ^^^^^^
-  ["variable.language.account"]
-        ^^^^^^^^^^^^
-        ["variable.other.account"]
+  ^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]
   Expenses:Goods/|Services  1
-  ^^^^^^^^
-  ["variable.language.account"]
-          ^^^^^^^^^^^^^^^^
-          ["variable.other.account"]
+  ^^^^^^^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]

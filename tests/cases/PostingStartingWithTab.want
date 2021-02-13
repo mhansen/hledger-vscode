@@ -4,12 +4,8 @@
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
            ["constant.string.desc"]
 	Assets:Spaces		-800 SPACES
-	^^^^^^
- ["variable.language.account"]
-	      ^^^^^^^
-       ["variable.other.account"]
+	^^^^^^^^^^^^^
+ ["variable.other.account"]
 	Assets:Tabs		100 TABS
-	^^^^^^
- ["variable.language.account"]
-	      ^^^^^
-       ["variable.other.account"]
+	^^^^^^^^^^^
+ ["variable.other.account"]
