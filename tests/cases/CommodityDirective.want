@@ -8,5 +8,7 @@ commodity INR
           ^^^
           ["constant.other.currency"]
   format INR 9,99,99,999.00
+  ^^^^^^
+  ["keyword.other.format"]
          ^^^
          ["constant.other.currency"]

@@ -21,6 +21,9 @@
 			"include": "#accountaliasdirective"
 		},
 		{
+			"include": "#commoditydirective"
+		},
+		{
 			"include": "#defaultcommoditydirective"
 		}
 	],
@@ -83,6 +86,31 @@
 				}
 			]
 		},
+		"commoditydirective": {
+			"patterns": [
+				{
+					"begin": "^(commodity)\\b",
+					"while": "^ ",
+					"beginCaptures": {
+						"1": {"name": "keyword.other.commodity"}
+					},
+					"patterns": [
+						{"include": "#currencies"},
+						{"include": "#commodityformatsubdirective"}
+					]
+				}
+			]
+		},
+		"commodityformatsubdirective": {
+			"begin": " (format)",
+			"end": "$",
+			"beginCaptures": {
+				"1": {"name": "keyword.other.format"}
+			},
+			"patterns": [
+				{"include": "#currencies"}
+			]
+		},
 		"defaultcommoditydirective": {
 			"patterns": [
 				{
@@ -102,10 +130,6 @@
 				{
 					"name": "keyword.other.include",
 					"match": "^include\\b"
-				},
-				{
-					"name": "keyword.other.commodity",
-					"match": "^commodity\\b"
 				},
 				{
 					"name": "keyword.other.defaultyear",
