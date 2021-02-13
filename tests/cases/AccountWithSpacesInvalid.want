@@ -1,0 +1,11 @@
+2010-01-01 Invalid Too Many Spaces
+^^^^^^^^^^
+["constant.other.date"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+           ["constant.string.desc"]
+  Account With  Too   Many   Spaces  10
+  IncomeWithNoSpaces  -10
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^^^^^^
+        ["variable.other.account"]
