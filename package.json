@@ -12,7 +12,8 @@
     "vscode": "^1.14.0"
   },
   "scripts": {
-    "test": "mocha -r ts-node/register tests/test.ts"
+    "test": "mocha -r ts-node/register tests/test.ts",
+    "goldens": "ts-node tests/main.ts tests/cases/*.in.hledger"
   },
   "categories": [
     "Programming Languages"

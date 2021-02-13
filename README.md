@@ -26,5 +26,5 @@ We have golden file tests under `tests/cases`, containing example
 `.in.hledger` files, and syntax-highlighted `.want` files. Run the tests with
 `npm test`.
 
-If you've examined the differences and they're expected, rebuild the golden files by running
-`ts-node tests/main.ts tests/cases/*.in.hledger`.
+If you've examined the differences and they're expected, rebuild the golden
+files by running `npm run-script goldens`.
