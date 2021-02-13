@@ -16,6 +16,9 @@
 		},
 		{
 			"include": "#keywords"
+		},
+		{
+			"include": "#accountaliasdirective"
 		}
 	],
 	"repository": {
@@ -65,6 +68,18 @@
 				}
 			]
 		},
+		"accountaliasdirective": {
+			"patterns": [
+				{
+					"match": "^(alias)\\s+(.*)=(.*)$",
+					"captures": {
+						"1": {"name": "keyword.other.accountalias"},
+						"2": {"name": "variable.other.account"},
+						"3": {"name": "variable.other.account"}
+					}
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [
 				{
@@ -94,10 +109,6 @@
 				{
 					"name": "keyword.other.account",
 					"match": "^account\\b"
-				},
-				{
-					"name": "keyword.other.accountalias",
-					"match": "^alias\\b"
 				},
 				{
 					"name": "keyword.other.endaccountaliases",
