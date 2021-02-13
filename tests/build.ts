@@ -23,9 +23,9 @@ export default async function build(input: string) : Promise<string> {
 
   let ruleStack = null;
   let lines = [];
-  for (let line of input.split('\n')) {
-    let r = grammar.tokenizeLine(line, ruleStack);
-    lines.push(line);
+  for (let inputLine of input.split('\n')) {
+    let r = grammar.tokenizeLine(inputLine, ruleStack);
+    lines.push(inputLine);
     for (let t of r.tokens) {
       // First element is always source.hledger. Drop it.
       t.scopes.shift();
@@ -33,21 +33,27 @@ export default async function build(input: string) : Promise<string> {
         // If we have no scopes, skip
         continue;
       }
-      let line = '';
+      let outputLine = '';
       let i = 0;
       for (; i < t.startIndex; i++) {
-        line += ' ';
+        if (inputLine.charAt(i) == '\t') {
+          console.log('found tab');
+          outputLine += '\t';
+        } else {
+          outputLine += ' ';
+        }
       }
       for (; i < t.endIndex; i++) {
-        line += '^';
+        outputLine += '^';
       }
-      lines.push(line);
-      line = '';
+      lines.push(outputLine);
+
+      outputLine = '';
       for (i = 0; i < t.startIndex; i++) {
-        line += ' ';
+        outputLine += ' ';
       }
-      line += JSON.stringify(t.scopes);
-      lines.push(line);
+      outputLine += JSON.stringify(t.scopes);
+      lines.push(outputLine);
     }
     ruleStack = r.ruleStack;
   }

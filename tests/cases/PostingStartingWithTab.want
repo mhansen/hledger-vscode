@@ -1,0 +1,15 @@
+2020-01-01 Tabs at the start, and before currency
+^^^^^^^^^^
+["constant.other.date"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ["constant.string.desc"]
+	Assets:Spaces		-800 SPACES
+	^^^^^^
+ ["variable.language.account"]
+	      ^^^^^^^
+       ["variable.other.account"]
+	Assets:Tabs		100 TABS
+	^^^^^^
+ ["variable.language.account"]
+	      ^^^^^
+       ["variable.other.account"]
