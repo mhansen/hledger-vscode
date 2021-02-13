@@ -19,6 +19,9 @@
 		},
 		{
 			"include": "#accountaliasdirective"
+		},
+		{
+			"include": "#defaultcommoditydirective"
 		}
 	],
 	"repository": {
@@ -80,6 +83,20 @@
 				}
 			]
 		},
+		"defaultcommoditydirective": {
+			"patterns": [
+				{
+					"begin": "^(D)\\b",
+					"end": "$",
+					"beginCaptures": {
+						"1": {"name": "keyword.other.defaultcommodity"}
+					},
+					"patterns": [
+						{"include": "#currencies"}
+					]
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [
 				{
@@ -89,10 +106,6 @@
 				{
 					"name": "keyword.other.commodity",
 					"match": "^commodity\\b"
-				},
-				{
-					"name": "keyword.other.defaultcommodity",
-					"match": "^D\\b"
 				},
 				{
 					"name": "keyword.other.defaultyear",
