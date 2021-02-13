@@ -1,3 +1,27 @@
+account assets:bank:checking  ; same-line comment, note 2+ spaces before ;
+^^^^^^^
+["keyword.other.account"]
+        ^^^^^^
+        ["variable.language.account"]
+              ^^^^^^^^^^^^^^
+              ["variable.other.account"]
+                              ^
+                              ["comment.line"]
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                               ["comment.line"]
+  ; next-line comment
+  ^
+  ["comment.line"]
+   ^^^^^^^^^^^^^^^^^^
+   ["comment.line"]
+  ; another with tag, acctno:12345 (not used yet)
+  ^
+  ["comment.line"]
+   ^^^^^^^^^^^^^^^^^^^
+   ["comment.line"]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                      ["comment.line","string.unquoted.tag"]
+
 account assets:bank:checking
 ^^^^^^^
 ["keyword.other.account"]
@@ -5,8 +29,11 @@ account assets:bank:checking
         ["variable.language.account"]
               ^^^^^^^^^^^^^^
               ["variable.other.account"]
- a comment
- acct-no:12345
+  format blah blah  ; <- subdirective, ignored
+                    ^
+                    ["comment.line"]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+                     ["comment.line"]
 
 account expenses:food
 ^^^^^^^

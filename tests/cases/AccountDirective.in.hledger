@@ -1,5 +1,8 @@
+account assets:bank:checking  ; same-line comment, note 2+ spaces before ;
+  ; next-line comment
+  ; another with tag, acctno:12345 (not used yet)
+
 account assets:bank:checking
- a comment
- acct-no:12345
+  format blah blah  ; <- subdirective, ignored
 
 account expenses:food
