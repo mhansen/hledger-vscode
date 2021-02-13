@@ -1,15 +1,15 @@
-2010-01-01 Slashes and backslashes are valid
+2010-01-01 Slashes and backslashes and pipes are valid
 ^^^^^^^^^^
 ["constant.other.date"]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
            ["constant.string.desc"]
   Income:Profit\Loss  -1
   ^^^^^^
   ["variable.language.account"]
         ^^^^^^^^^^^^
         ["variable.other.account"]
-  Expenses:Goods/Services  1
+  Expenses:Goods/|Services  1
   ^^^^^^^^
   ["variable.language.account"]
-          ^^^^^^^^^^^^^^^
+          ^^^^^^^
           ["variable.other.account"]
