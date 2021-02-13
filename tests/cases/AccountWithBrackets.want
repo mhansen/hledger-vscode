@@ -4,7 +4,7 @@
   Assets:Curved()  -1
   ^^^^^^
   ["variable.language.account"]
-        ^^^^^^^
+        ^^^^^^^^^
         ["variable.other.account"]
   Expenses:Pretzels
   ^^^^^^^^
@@ -18,7 +18,7 @@
   Assets:Square[]  -1
   ^^^^^^
   ["variable.language.account"]
-        ^^^^^^^
+        ^^^^^^^^^
         ["variable.other.account"]
   Expenses:WhiteBread
   ^^^^^^^^
