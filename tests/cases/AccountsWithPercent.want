@@ -1,0 +1,15 @@
+2000-01-01 Percents are valid in account names
+^^^^^^^^^^
+["constant.other.date"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ["constant.string.desc"]
+  Income:Percentage
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^^^^^
+        ["variable.other.account"]
+  Assets:Foo%  1
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^
+        ["variable.other.account"]
