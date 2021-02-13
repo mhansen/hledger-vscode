@@ -1,6 +1,13 @@
 alias OLD = NEW
 ^^^^^
 ["keyword.other.accountalias"]
+alias OLD = NEW ; not a comment, part of the account name
+^^^^^
+["keyword.other.accountalias"]
+                ^
+                ["comment.line"]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 ["comment.line"]
 alias checking = assets:bank:wells fargo:checking
 ^^^^^
 ["keyword.other.accountalias"]
