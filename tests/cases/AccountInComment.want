@@ -1,0 +1,11 @@
+; This is a comment, containing income:, and expenses:
+^
+["comment.line"]
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ["comment.line"]
+                                ^^^^^^^
+                                ["comment.line","string.unquoted.tag"]
+                                       ^^^^^^
+                                       ["comment.line"]
+                                             ^^^^^^^^^^
+                                             ["comment.line","string.unquoted.tag"]
