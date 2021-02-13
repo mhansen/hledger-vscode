@@ -6,7 +6,7 @@
   "name": "hledger-vscode",
   "displayName": "hledger-vscode",
   "description": "Language support for HLedger accounting journals.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "mark-hansen",
   "engines": {
     "vscode": "^1.14.0"
