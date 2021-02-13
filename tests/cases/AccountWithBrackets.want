@@ -1,0 +1,27 @@
+2010-01-01
+^^^^^^^^^^
+["constant.other.date"]
+  Assets:Curved()  -1
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^
+        ["variable.other.account"]
+  Expenses:Pretzels
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^^^^^^
+          ["variable.other.account"]
+
+2010-01-01
+^^^^^^^^^^
+["constant.other.date"]
+  Assets:Square[]  -1
+  ^^^^^^
+  ["variable.language.account"]
+        ^^^^^^^
+        ["variable.other.account"]
+  Expenses:WhiteBread
+  ^^^^^^^^
+  ["variable.language.account"]
+          ^^^^^^^^^^^
+          ["variable.other.account"]
