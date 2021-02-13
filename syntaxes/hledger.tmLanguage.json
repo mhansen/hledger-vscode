@@ -44,7 +44,7 @@
 		"accountnames": {
 			"patterns": [
 				{
-					"match": "\\b([Aa]ssets|[Ll]iabilities|[Ee]xpenses|[Ii]ncome|[Ee]quity)((?: ?[^\\s#%|*;])+:?)",
+					"match": "\\b([Aa]ssets|[Ll]iabilities|[Ee]xpenses|[Ii]ncome|[Ee]quity)((?: ?[^\\s#%*;])+:?)",
 					"captures": {
 						"1": { "name": "variable.language.account"},
 						"2": { "name": "variable.other.account"}
