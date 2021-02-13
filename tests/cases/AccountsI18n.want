@@ -1,6 +1,8 @@
 2010/01/02 Norwegian Salary
 ^^^^^^^^^^
 ["constant.other.date"]
+           ^^^^^^^^^^^^^^^^^
+           ["constant.string.desc"]
   Inntekter:Lønn       -1000 NOK
                              ^^^
                              ["constant.other.currency"]

@@ -1,6 +1,8 @@
 2010/01/02 Foo
 ^^^^^^^^^^
 ["constant.other.date"]
+           ^^^^
+           ["constant.string.desc"]
   Income:Foo      -1 USD
   ^^^^^^
   ["variable.language.account"]

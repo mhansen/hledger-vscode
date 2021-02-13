@@ -29,9 +29,10 @@
 	],
 	"repository": {
 		"transaction": {
-			"begin": "^((\\d{4}[-/.])?\\d{1,2}[-/.]\\d{1,2})",
+			"begin": "^((\\d{4}[-/.])?\\d{1,2}[-/.]\\d{1,2})( +([^;#*]+))?",
 			"beginCaptures": {
-				"1": { "name": "constant.other.date" }
+				"1": { "name": "constant.other.date" },
+				"4": {"name": "constant.string.desc"}
 			},
 			"while": "^ ",
 			"patterns": [

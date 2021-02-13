@@ -1,5 +1,5 @@
 2010/01/02 FRAUD AUD AUDOLLAR
 ^^^^^^^^^^
 ["constant.other.date"]
-                 ^^^
-                 ["constant.other.currency"]
+           ^^^^^^^^^^^^^^^^^^^
+           ["constant.string.desc"]

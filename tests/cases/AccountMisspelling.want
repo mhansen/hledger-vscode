@@ -1,5 +1,7 @@
 2020-02-02 Misspelling
 ^^^^^^^^^^
 ["constant.other.date"]
+           ^^^^^^^^^^^^
+           ["constant.string.desc"]
   AAssets:Bank  -100
   EExpenses:Food  100

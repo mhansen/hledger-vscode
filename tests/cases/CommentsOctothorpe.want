@@ -11,6 +11,8 @@
 2010/01/01 Foo # bar # baz
 ^^^^^^^^^^
 ["constant.other.date"]
+           ^^^^
+           ["constant.string.desc"]
                ^
                ["comment.line"]
                 ^^^^^^^^^^

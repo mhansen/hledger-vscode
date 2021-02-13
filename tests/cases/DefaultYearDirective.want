@@ -9,6 +9,8 @@ Y2009      ; set default year to 2009
 12/15      ; equivalent to 2009/12/15
 ^^^^^
 ["constant.other.date"]
+          ^
+          ["constant.string.desc"]
            ^
            ["comment.line"]
             ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -27,6 +29,8 @@ Y2010      ; change default year to 2010
 2009/1/30  ; specifies the year, not affected
 ^^^^^^^^^
 ["constant.other.date"]
+          ^
+          ["constant.string.desc"]
            ^
            ["comment.line"]
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -37,6 +41,8 @@ Y2010      ; change default year to 2010
 1/31       ; equivalent to 2010/1/31
 ^^^^
 ["constant.other.date"]
+          ^
+          ["constant.string.desc"]
            ^
            ["comment.line"]
             ^^^^^^^^^^^^^^^^^^^^^^^^

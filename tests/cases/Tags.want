@@ -1,6 +1,8 @@
 2017/1/16 bought groceries    ; sometag:
 ^^^^^^^^^
 ["constant.other.date"]
+          ^^^^^^^^^^^^^^^^^^^^
+          ["constant.string.desc"]
                               ^
                               ["comment.line"]
                                ^
@@ -39,6 +41,8 @@
 2010/01/01 foo ; tag:a-b-c
 ^^^^^^^^^^
 ["constant.other.date"]
+           ^^^^
+           ["constant.string.desc"]
                ^
                ["comment.line"]
                 ^
@@ -48,6 +52,8 @@
 2010/01/01 foo # tag:a-b-c
 ^^^^^^^^^^
 ["constant.other.date"]
+           ^^^^
+           ["constant.string.desc"]
                ^
                ["comment.line"]
                 ^

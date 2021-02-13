@@ -1,6 +1,8 @@
 2010/01/01 Foo
 ^^^^^^^^^^
 ["constant.other.date"]
+           ^^^^
+           ["constant.string.desc"]
   Assets:With Spaces             10 USD
   ^^^^^^
   ["variable.language.account"]
