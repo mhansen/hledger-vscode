@@ -37,7 +37,6 @@ export default async function build(input: string) : Promise<string> {
       let i = 0;
       for (; i < t.startIndex; i++) {
         if (inputLine.charAt(i) == '\t') {
-          console.log('found tab');
           outputLine += '\t';
         } else {
           outputLine += ' ';
