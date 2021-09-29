@@ -22,7 +22,7 @@ Language support for [HLedger](http://hledger.org/) command-line accounting [jou
 
 ### Updating Tests
 
-We have golden file tests under `tests/cases`, containing example
+We have golden file tests under `src/tests/cases`, containing example
 `.in.hledger` files, and syntax-highlighted `.want` files. Run the tests with
 `npm test`.
 
