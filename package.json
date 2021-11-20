@@ -51,6 +51,6 @@
     "ts-node": "^10.4.0",
     "typescript": "^4.5.2",
     "vscode-oniguruma": "^1.6.1",
-    "vscode-textmate": "^5.4.1"
+    "vscode-textmate": "^5.5.0"
   }
 }
