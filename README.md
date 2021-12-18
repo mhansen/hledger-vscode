@@ -1,4 +1,5 @@
-![](https://img.shields.io/visual-studio-marketplace/i/mark-hansen.hledger-vscode)
+[![](https://img.shields.io/visual-studio-marketplace/v/mark-hansen.hledger-vscode)](https://marketplace.visualstudio.com/items?itemName=mark-hansen.hledger-vscode)
+[![](https://img.shields.io/visual-studio-marketplace/i/mark-hansen.hledger-vscode)](https://marketplace.visualstudio.com/items?itemName=mark-hansen.hledger-vscode)
 
 # hledger-vscode README
 
