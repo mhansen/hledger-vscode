@@ -1,3 +1,5 @@
+![](https://img.shields.io/visual-studio-marketplace/i/mark-hansen.hledger-vscode)
+
 # hledger-vscode README
 
 Language support for [HLedger](http://hledger.org/) command-line accounting [journal files](http://hledger.org/journal.html).
