@@ -18,6 +18,10 @@
   "categories": [
     "Programming Languages"
   ],
+  "activationEvents": [
+    "onLanguage:hledger"
+  ],
+  "main": "./src/extension.js",
   "contributes": {
     "languages": [
       {
@@ -32,6 +36,21 @@
           ".journal.txt"
         ],
         "configuration": "./language-configuration.json"
+      }
+    ],
+    "configuration": [
+      {
+        "title": "Hledger",
+        "properties": {
+          "hledger.hledgerPath": {
+            "type": "string",
+            "default": "hledger"
+          },
+          "hledger.ledgerFile": {
+            "type": "string",
+            "description": "Default: $LEDGER_FILE or $HOME/.hledger.journal"
+          }
+        }
       }
     ],
     "grammars": [
