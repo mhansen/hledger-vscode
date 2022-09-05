@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.8
+
+- Add new currency symbol for India Rupee ₹
+
 ## 0.0.7
 
 - Fix images in README to render.
