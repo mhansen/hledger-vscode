@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.0.8
+## 0.0.9
 
 - Add new currency symbol for India Rupee ₹
 
