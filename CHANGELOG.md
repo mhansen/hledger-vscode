@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.10
+
+- Add highlighting for [auxiliary/secondary dates](https://hledger.org/1.27/hledger.html#secondary-dates).
+
 ## 0.0.9
 
 - Add new currency symbol for India Rupee ₹
