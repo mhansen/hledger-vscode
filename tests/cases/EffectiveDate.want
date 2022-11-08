@@ -1,0 +1,13 @@
+2022-11-07=2022-11-24 Holiday
+^^^^^^^^^^
+["constant.other.date"]
+           ^^^^^^^^^^
+           ["constant.other.date"]
+                      ^^^^^^^^
+                      ["constant.string.desc"]
+  Expenses:Vacation:Days  4 bd
+  ^^^^^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]
+  Assets:Vacation:Annual Leave
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ["variable.other.account"]
