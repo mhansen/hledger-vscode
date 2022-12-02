@@ -1,0 +1,13 @@
+2022-08-22 Uber | Auto
+^^^^^^^^^^
+["constant.other.date"]
+           ^^^^^^^^^^^^
+           ["constant.string.desc"]
+    Expenses:Transport:Auto   ₹220.00
+    ^^^^^^^^^^^^^^^^^^^^^^^
+    ["variable.other.account"]
+                              ^
+                              ["constant.other.currency"]
+    Assets:Cash:INR          ₹-220.00
+    ^^^^^^^^^^^^^^^
+    ["variable.other.account"]
