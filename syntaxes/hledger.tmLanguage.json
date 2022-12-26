@@ -64,6 +64,11 @@
 			"patterns": [
 				{
 					"name": "comment.line",
+					"begin": "^[#;\\*]",
+					"end": "$"
+				},
+				{
+					"name": "comment.inline",
 					"begin": "[#;]",
 					"end": "$",
 					"patterns": [
@@ -72,6 +77,11 @@
 							"match": "[-\\w]+:[^,]*"
 						}
 					]
+				},
+				{
+					"name": "comment.blocks",
+					"begin": "^comment$",
+					"end": "^end comment$"
 				}
 			]
 		},
