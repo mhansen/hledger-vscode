@@ -65,7 +65,7 @@
 			"patterns": [
 				{
 					"name": "comment.line",
-					"begin": "[#;]",
+					"begin": "[;]",
 					"end": "$",
 					"patterns": [
 						{
