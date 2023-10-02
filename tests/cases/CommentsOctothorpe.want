@@ -1,37 +1,17 @@
 # foo
-^
-["comment.line"]
- ^^^^
- ["comment.line"]
   # bar
-  ^
-  ["comment.line"]
-   ^^^^
-   ["comment.line"]
 2010/01/01 Foo # bar # baz
 ^^^^^^^^^^
 ["constant.other.date"]
-           ^^^^
+           ^^^^^^^^^^^^^^^^
            ["constant.string.desc"]
-               ^
-               ["comment.line"]
-                ^^^^^^^^^^
-                ["comment.line"]
   Assets:Foo   -1 USD # bar #
   ^^^^^^^^^^
   ["variable.other.account"]
                   ^^^
                   ["constant.other.currency"]
-                      ^
-                      ["comment.line"]
-                       ^^^^^^
-                       ["comment.line"]
   Expenses:Baz  1 USD # qux #
   ^^^^^^^^^^^^
   ["variable.other.account"]
                   ^^^
                   ["constant.other.currency"]
-                      ^
-                      ["comment.line"]
-                       ^^^^^^
-                       ["comment.line"]
