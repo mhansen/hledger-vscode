@@ -64,6 +64,17 @@
 		"comments": {
 			"patterns": [
 				{
+					"name": "comment.block",
+					"begin": "^[;#*]",
+					"end": "$",
+					"patterns": [
+						{
+							"name": "string.unquoted.tag",
+							"match": "[-\\w]+:[^,]*"
+						}
+					]
+				},
+				{
 					"name": "comment.line",
 					"begin": "[;]",
 					"end": "$",

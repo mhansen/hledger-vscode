@@ -1,11 +1,11 @@
 ; This is a comment, containing income:salary, and expenses:food
 ^
-["comment.line"]
+["comment.block"]
  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- ["comment.line"]
+ ["comment.block"]
                                 ^^^^^^^^^^^^^
-                                ["comment.line","string.unquoted.tag"]
+                                ["comment.block","string.unquoted.tag"]
                                              ^^^^^^
-                                             ["comment.line"]
+                                             ["comment.block"]
                                                    ^^^^^^^^^^^^^^
-                                                   ["comment.line","string.unquoted.tag"]
+                                                   ["comment.block","string.unquoted.tag"]

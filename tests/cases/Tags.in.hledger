@@ -4,3 +4,7 @@
 
 2010/01/01 foo ; tag:a-b-c
 2010/01/01 foo # tag:a-b-c
+
+; tag:a-b-c
+# tag:a-b-c
+* tag:a-b-c
