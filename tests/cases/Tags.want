@@ -50,3 +50,25 @@
 ["constant.other.date"]
            ^^^^^^^^^^^^^^^^
            ["constant.string.desc"]
+
+; tag:a-b-c
+^
+["comment.block"]
+ ^
+ ["comment.block"]
+  ^^^^^^^^^^
+  ["comment.block","string.unquoted.tag"]
+# tag:a-b-c
+^
+["comment.block"]
+ ^
+ ["comment.block"]
+  ^^^^^^^^^^
+  ["comment.block","string.unquoted.tag"]
+* tag:a-b-c
+^
+["comment.block"]
+ ^
+ ["comment.block"]
+  ^^^^^^^^^^
+  ["comment.block","string.unquoted.tag"]

@@ -1,20 +1,20 @@
-# foo
+* foo
 ^
 ["comment.block"]
  ^^^^
  ["comment.block"]
-  # bar
-2010/01/01 Foo # bar # baz
+  * bar
+2010/01/01 Foo * bar * baz
 ^^^^^^^^^^
 ["constant.other.date"]
            ^^^^^^^^^^^^^^^^
            ["constant.string.desc"]
-  Assets:Foo   -1 USD # bar #
+  Assets:Foo   -1 USD * bar *
   ^^^^^^^^^^
   ["variable.other.account"]
                   ^^^
                   ["constant.other.currency"]
-  Expenses:Baz  1 USD # qux #
+  Expenses:Baz  1 USD * qux *
   ^^^^^^^^^^^^
   ["variable.other.account"]
                   ^^^

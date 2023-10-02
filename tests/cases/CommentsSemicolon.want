@@ -1,8 +1,8 @@
 ; foo
 ^
-["comment.line"]
+["comment.block"]
  ^^^^
- ["comment.line"]
+ ["comment.block"]
   ; bar
   ^
   ["comment.line"]
