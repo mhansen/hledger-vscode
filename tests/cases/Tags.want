@@ -48,11 +48,5 @@
 2010/01/01 foo # tag:a-b-c
 ^^^^^^^^^^
 ["constant.other.date"]
-           ^^^^
+           ^^^^^^^^^^^^^^^^
            ["constant.string.desc"]
-               ^
-               ["comment.line"]
-                ^
-                ["comment.line"]
-                 ^^^^^^^^^^
-                 ["comment.line","string.unquoted.tag"]

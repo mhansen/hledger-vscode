@@ -1,4 +1,5 @@
 import * as fs from 'fs';
+import * as os from 'os';
 import * as path from 'path';
 import * as vsctm from 'vscode-textmate/release/main';
 import * as oniguruma from 'vscode-oniguruma';
@@ -40,7 +41,7 @@ export default async function build(input: string) : Promise<string> {
 
   let ruleStack = null;
   let lines = [];
-  for (let inputLine of input.split('\n')) {
+  for (let inputLine of input.split(/\r?\n/)) {
     let r = grammar.tokenizeLine(inputLine, ruleStack);
     lines.push(inputLine);
     for (let t of r.tokens) {
@@ -73,5 +74,5 @@ export default async function build(input: string) : Promise<string> {
     }
     ruleStack = r.ruleStack;
   }
-  return lines.join('\n');
+  return lines.join(os.EOL);
 }
