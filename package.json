@@ -45,7 +45,7 @@
   "devDependencies": {
     "@types/minimist": "^1.2.4",
     "@types/mocha": "^10.0.3",
-    "@types/node": "^20.8.9",
+    "@types/node": "^20.8.10",
     "minimist": "^1.2.8",
     "mocha": "^10.2.0",
     "ts-node": "^10.9.1",
