@@ -48,7 +48,7 @@
     "@types/node": "^20.10.4",
     "minimist": "^1.2.8",
     "mocha": "^10.2.0",
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
     "vscode-oniguruma": "^2.0.1",
     "vscode-textmate": "^9.0.0"
