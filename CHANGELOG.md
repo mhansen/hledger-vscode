@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.0.11
+
+- Fixed some comment support:
+   - `#` now only highlights as a comment at the start of a line
+   - Stopped incorrectly highlighting `#` and `*` in transaction descriptions as comments
+
 ## 0.0.10
 
 - Add highlighting for [auxiliary/secondary dates](https://hledger.org/1.27/hledger.html#secondary-dates).
