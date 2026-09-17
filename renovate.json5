@@ -3,6 +3,7 @@
   "extends": [
     "config:recommended"
   ],
+  "enabled": false,
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
